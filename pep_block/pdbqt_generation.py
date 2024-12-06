@@ -1,11 +1,35 @@
-from multiprocessing import Pool, cpu_count
 from rdkit import Chem
-from rdkit.Chem import AllChem, Draw
+from rdkit.Chem import AllChem
+from Bio import PDB
+from Bio.PDB.Polypeptide import PPBuilder
+from meeko import MoleculePreparation
 import pandas as pd
 import os
 import argparse
-from Bio import PDB
-from Bio.PDB.Polypeptide import PPBuilder
+from multiprocessing import Pool, cpu_count
+from rdkit.Chem.rdmolops import GetAdjacencyMatrix
+
+
+def extract_chain_by_sequence(input_pdb, target_sequence):
+    """
+    Extract a specific chain from a PDB file by matching the sequence.
+    """
+    parser = PDB.PDBParser(QUIET=True)
+    structure = parser.get_structure("structure", input_pdb)
+    ppb = PPBuilder()  # To extract polypeptides and sequences
+
+    for model in structure:
+        for chain in model:
+            # Extract the sequence of the current chain
+            polypeptides = ppb.build_peptides(chain)
+            for poly in polypeptides:
+                sequence = str(poly.get_sequence())
+                print(f"Extracted sequence from chain {chain.id}: {sequence}")
+                if sequence == target_sequence:
+                    print(f"Found matching sequence in chain {chain.id}")
+                    return chain
+    print(f"No chain found matching sequence: {target_sequence}")
+    return None  # Sequence not found
 
 
 def read_parquet(file_path, peptide_col):
@@ -39,47 +63,45 @@ def generate_3d_structure_from_2d(mol_2d):
         print("Failed to embed the 3D structure.")
         return None
     AllChem.UFFOptimizeMolecule(mol_3d)  # Optimize the 3D structure
-    
     return mol_3d
 
 
-def constrain_to_template(mol_3d, template):
+def save_as_pdbqt(mol_3d, output_dir, file_prefix, idx):
     """
-    Constrain a molecule to a given template using RDKit's ConstrainedEmbed.
+    Save a molecule in PDBQT format using Meeko.
     """
     try:
-        Chem.SanitizeMol(mol_3d)
-        constrained_mol = Chem.Mol(mol_3d)  # Create a copy to avoid modifying input
-        AllChem.ConstrainedEmbed(constrained_mol, template)
-        return constrained_mol
+        preparator = MoleculePreparation(hydrate=True)
+        preparator.prepare(mol_3d)
+        pdbqt_path = os.path.join(output_dir, f"{file_prefix}_{idx}.pdbqt")
+        preparator.write_pdbqt_file(pdbqt_path)
+        print(f"PDBQT saved: {pdbqt_path}")
     except Exception as e:
-        print(f"Constrained embedding failed: {e}")
-        return None
+        print(f"Failed to generate PDBQT for molecule {idx}: {e}")
 
 
-def extract_chain_by_sequence(input_pdb, target_sequence):
-    """
-    Extract a specific chain from a PDB file by matching the sequence.
-    """
-    parser = PDB.PDBParser(QUIET=True)
-    structure = parser.get_structure("structure", input_pdb)
-    ppb = PPBuilder()  # To extract polypeptides and sequences
+def compare_atom_symbols(mol1, mol2):
+    symbols1 = [atom.GetSymbol() for atom in mol1.GetAtoms()]
+    print(symbols1)
+    symbols2 = [atom.GetSymbol() for atom in mol2.GetAtoms()]
+    print(symbols2)
+    if symbols1 != symbols2:
+        print("Les atomes diffèrent :", symbols1, symbols2)
+        return False
+    print("Les atomes sont identiques.")
+    return True
 
-    # Iterate over all models and chains
-    for model in structure:
-        for chain in model:
-            # Get the sequence of the current chain
-            polypeptides = ppb.build_peptides(chain)
-            for poly in polypeptides:
-                sequence = str(poly.get_sequence())
-                print(f"Extracted sequence from chain {chain.id}: {sequence}")
-                if sequence == target_sequence:
-                    print(f"Found matching sequence in chain {chain.id}")
-                    return chain
-    return None  # Sequence not found
+def compare_bond_types(mol1, mol2):
+    bonds1 = [(bond.GetBeginAtomIdx(), bond.GetEndAtomIdx(), bond.GetBondType()) for bond in mol1.GetBonds()]
+    bonds2 = [(bond.GetBeginAtomIdx(), bond.GetEndAtomIdx(), bond.GetBondType()) for bond in mol2.GetBonds()]
+    if bonds1 != bonds2:
+        print("Les types de liaison diffèrent :", bonds1, bonds2)
+        return False
+    print("Les types de liaison sont identiques.")
+    return True
 
 
-def process_peptide(peptide, idx, skip_3d, prefix, output_dir, template=None):
+def process_peptide(peptide, idx, prefix, output_dir, template=None):
     """
     Process a single peptide to generate 2D and optionally 3D structures.
     """
@@ -89,23 +111,21 @@ def process_peptide(peptide, idx, skip_3d, prefix, output_dir, template=None):
         print(f"Failed to generate 2D structure for peptide {idx}")
         return None
 
-    mol_3d = None
-    if not skip_3d:
-        mol_3d = generate_3d_structure_from_2d(mol_2d)
-        if not mol_3d:
-            print(f"Failed to generate 3D structure for peptide {idx}")
+    mol_3d = generate_3d_structure_from_2d(mol_2d)
+    if not mol_3d:
+        print(f"Failed to generate 3D structure for peptide {idx}")
+        return None
+
+    if template is not None:
+        try:
+            print(f"Assigning bond orders for peptide {idx} using the template...")
+            mol_3d = AllChem.AssignBondOrdersFromTemplate(template, mol_3d)
+            print(f"Successfully assigned bond orders for peptide {idx}.")
+        except Exception as e:
+            print(f"Error while assigning bond orders for peptide {idx}: {e}")
             return None
 
-        if template is not None:
-            mol_3d_constrained = constrain_to_template(mol_3d, template)
-            if not mol_3d_constrained:
-                print(f"Failed to constrain peptide {idx} to the template.")
-                return None
-            print(f"Successfully constrained peptide {idx} to the template.")
-
-        #pdb_path = os.path.join(output_dir, f"{prefix}_3d_{idx}.pdb")
-        #Chem.MolToPDBFile(mol_3d, pdb_path)
-        #print(f"Saved 3D structure at: {pdb_path}")
+    save_as_pdbqt(mol_3d, output_dir, prefix, idx)
 
     return mol_3d
 
@@ -117,12 +137,10 @@ def main():
     parser = argparse.ArgumentParser(description="Generate 2D and 3D constrained structures for peptides.")
     parser.add_argument('-i', '--input', type=str, required=True, help="Path to the input Parquet file containing peptides.")
     parser.add_argument('-c', '--column', type=str, required=True, help="Column name containing peptide sequences.")
-    parser.add_argument('-o', '--output', type=str, required=True, help="Directory to save output structures and images.")
-    parser.add_argument('-n', '--num_images', type=int, default=2, help="Number of 2D images to save for visualization. Default is 2.")
-    parser.add_argument('--skip_3d', action='store_true', help="Skip the generation of 3D structures.")
+    parser.add_argument('-o', '--output', type=str, required=True, help="Directory to save output structures.")
     parser.add_argument('--prefix', type=str, default="peptide", help="Prefix for saved structure files. Default is 'peptide'.")
-    parser.add_argument('-t', '--template', type=str, default=None, help="Path to a PDB file of the template structure for constrained embedding.")
-    parser.add_argument('-s', '--sequence', type=str, default='SFLLRN', help="Target sequence to extract the template chain.")
+    parser.add_argument('-t', '--template', type=str, help="Path to the template PDB file.")
+    parser.add_argument('-s', '--sequence', type=str, default='SFLLRN', help="Target sequence for extracting the chain.")
 
     args = parser.parse_args()
 
@@ -146,27 +164,55 @@ def main():
         io.set_structure(chain)
         io.save(temp_pdb)
 
-        template = Chem.MolFromPDBFile(temp_pdb, removeHs=False)
-        Chem.SanitizeMol(template)
-        if not template:
-            raise ValueError("Failed to load the template structure into RDKit.")
+        template_from_seq = Chem.MolFromSequence(args.sequence)
+        if not template_from_seq:
+            raise ValueError("Failed to create 3D structure from sequence.")
+
         print("Template chain loaded successfully.")
+
+        template = Chem.MolFromPDBFile(temp_pdb, removeHs=False)
+        template_from_seq = Chem.RemoveHs(template_from_seq)
+        template = Chem.RemoveHs(template)
+
+        AllChem.Compute2DCoords(template_from_seq)
+        AllChem.Compute2DCoords(template)    
+        template = Chem.AddHs(template)  # Re-add hydrogens if needed
+        template_from_seq = Chem.AddHs(template_from_seq)
+        AllChem.EmbedMolecule(template_from_seq, AllChem.ETKDG())
+        AllChem.EmbedMolecule(template, AllChem.ETKDG())
+        #AllChem.UFFOptimizeMolecule(template_from_seq)
+        #AllChem.UFFOptimizeMolecule(template)
+
+        print(len([1 for b in template.GetBonds() if b.GetBondTypeAsDouble() == 1.0]))
+        print(len([1 for b in template_from_seq.GetBonds() if b.GetBondTypeAsDouble() == 1.0]))
+        
+        #template_from_seq = Chem.MolFromPDBFile(output_pdb_path, removeHs=True)
+        #rmsd = AllChem.AlignMol(template, template_from_seq)
+
+        #atom_mapping = template_from_seq.GetSubstructMatch(template)
+        #print(atom_mapping)
+        #template = Chem.RenumberAtoms(template, list(atom_mapping))
+
+        print(GetAdjacencyMatrix(template))
+        print(GetAdjacencyMatrix(template_from_seq))
+        print(len([1 for b in template.GetBonds() if b.GetBondTypeAsDouble() == 1.0]))
+        print("\nComparaison des atomes...")
+        atoms_ok = compare_atom_symbols(template_from_seq, template)
+
+        print("\nComparaison des types de liaison...")
+        bonds_ok = compare_bond_types(template_from_seq, template)
+        print("Template molecule loaded from PDB.")
+        template = AllChem.AssignBondOrdersFromTemplate(template_from_seq, template)
 
     print(f"Generating structures for {len(peptide_sequences)} peptides using {cpu_count()} CPUs...")
 
-    tasks = [(peptide, idx, args.skip_3d, args.prefix, args.output, template) for idx, peptide in enumerate(peptide_sequences)]
+    tasks = [(peptide, idx, args.prefix, args.output, template) for idx, peptide in enumerate(peptide_sequences)]
 
     with Pool() as pool:
         results = pool.starmap(process_peptide, tasks)
 
     valid_results = [result for result in results if result is not None]
     print(f"Processed {len(valid_results)} peptides out of {len(peptide_sequences)}.")
-
-    if valid_results:
-        img = Draw.MolsToGridImage(valid_results[:args.num_images], molsPerRow=2, subImgSize=(300, 300))
-        img_path = os.path.join(args.output, f"{args.prefix}_2d_structures.png")
-        img.save(img_path)
-        print(f"Saved 2D structure images at: {img_path}")
 
     print(f"Processing completed. Results saved in: {args.output}")
 
