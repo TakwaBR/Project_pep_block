@@ -1,1075 +1,1614 @@
 Read 532 peptides from ../results/filtered_peptides.parquet.
 Extracted sequence from chain A: SFLLRN
 Found matching sequence in chain A
-Extracted chain saved to ../results/peptide_structure/template_SFLLRN.pdb
+Extracted chain saved to ../results/pdb_files/template_SFLLRN.pdb
+Loading template from: ../data/cluster3_2.pdb
 Generating 2D images for 4 peptides...
 2D image grid saved to ../results/image.png
 Processing peptides...
-Processing peptide 126: SGDLRN
-PDBQT saved: ../results/peptide_structure/peptide_126.pdbqt
-Processing peptide 127: SGELRN
-PDBQT saved: ../results/peptide_structure/peptide_127.pdbqt
-Processing peptide 128: SGQLRN
-PDBQT saved: ../results/peptide_structure/peptide_128.pdbqt
-Processing peptide 129: SGGLRN
-PDBQT saved: ../results/peptide_structure/peptide_129.pdbqt
-Processing peptide 130: SGHLRN
-PDBQT saved: ../results/peptide_structure/peptide_130.pdbqt
-Processing peptide 131: SGILRN
-PDBQT saved: ../results/peptide_structure/peptide_131.pdbqt
-Processing peptide 132: SGLARN
-PDBQT saved: ../results/peptide_structure/peptide_132.pdbqt
-Processing peptide 133: SGLRRN
-PDBQT saved: ../results/peptide_structure/peptide_133.pdbqt
-Processing peptide 134: SGLNRN
-PDBQT saved: ../results/peptide_structure/peptide_134.pdbqt
-Processing peptide 153: SGYLRN
-PDBQT saved: ../results/peptide_structure/peptide_153.pdbqt
-Processing peptide 154: SGVLRN
-PDBQT saved: ../results/peptide_structure/peptide_154.pdbqt
-Processing peptide 155: SHALRN
-PDBQT saved: ../results/peptide_structure/peptide_155.pdbqt
-Processing peptide 156: SHGLRN
-PDBQT saved: ../results/peptide_structure/peptide_156.pdbqt
-Processing peptide 157: SHILRN
-PDBQT saved: ../results/peptide_structure/peptide_157.pdbqt
-Processing peptide 158: SHLARN
-PDBQT saved: ../results/peptide_structure/peptide_158.pdbqt
-Processing peptide 159: SHLGRN
-PDBQT saved: ../results/peptide_structure/peptide_159.pdbqt
-Processing peptide 160: SHLIRN
-PDBQT saved: ../results/peptide_structure/peptide_160.pdbqt
-Processing peptide 161: SHLFRN
-PDBQT saved: ../results/peptide_structure/peptide_161.pdbqt
-Processing peptide 333: SFIRRN
-PDBQT saved: ../results/peptide_structure/peptide_333.pdbqt
-Processing peptide 334: SFINRN
-PDBQT saved: ../results/peptide_structure/peptide_334.pdbqt
-Processing peptide 335: SFIQRN
-PDBQT saved: ../results/peptide_structure/peptide_335.pdbqt
-Processing peptide 336: SFIGRN
-PDBQT saved: ../results/peptide_structure/peptide_336.pdbqt
-Processing peptide 337: SFIHRN
-PDBQT saved: ../results/peptide_structure/peptide_337.pdbqt
-Processing peptide 338: SFIKRN
-PDBQT saved: ../results/peptide_structure/peptide_338.pdbqt
-Processing peptide 339: SFISRN
-PDBQT saved: ../results/peptide_structure/peptide_339.pdbqt
-Processing peptide 340: SFLARA
-PDBQT saved: ../results/peptide_structure/peptide_340.pdbqt
-Processing peptide 341: SFLARR
-PDBQT saved: ../results/peptide_structure/peptide_341.pdbqt
-Processing peptide 459: SFPQRN
-PDBQT saved: ../results/peptide_structure/peptide_459.pdbqt
-Processing peptide 460: SFPGRN
-PDBQT saved: ../results/peptide_structure/peptide_460.pdbqt
-Processing peptide 461: SFPHRN
-PDBQT saved: ../results/peptide_structure/peptide_461.pdbqt
-Processing peptide 462: SFPKRN
-PDBQT saved: ../results/peptide_structure/peptide_462.pdbqt
-Processing peptide 463: SFPSRN
-PDBQT saved: ../results/peptide_structure/peptide_463.pdbqt
-Processing peptide 464: SFSARN
-PDBQT saved: ../results/peptide_structure/peptide_464.pdbqt
-Processing peptide 465: SFSGRN
-PDBQT saved: ../results/peptide_structure/peptide_465.pdbqt
-Processing peptide 466: SFSIRN
-PDBQT saved: ../results/peptide_structure/peptide_466.pdbqt
-Processing peptide 467: SFSLRA
-PDBQT saved: ../results/peptide_structure/peptide_467.pdbqt
-Processing peptide 27: GFLHRN
-PDBQT saved: ../results/peptide_structure/peptide_27.pdbqt
-Processing peptide 28: GFLKRN
-PDBQT saved: ../results/peptide_structure/peptide_28.pdbqt
-Processing peptide 29: GFLSRN
-PDBQT saved: ../results/peptide_structure/peptide_29.pdbqt
-Processing peptide 30: GFKLRN
-PDBQT saved: ../results/peptide_structure/peptide_30.pdbqt
-Processing peptide 31: GFSLRN
-PDBQT saved: ../results/peptide_structure/peptide_31.pdbqt
-Processing peptide 32: HFALRN
-PDBQT saved: ../results/peptide_structure/peptide_32.pdbqt
-Processing peptide 33: HFRLRN
-PDBQT saved: ../results/peptide_structure/peptide_33.pdbqt
-Processing peptide 34: HFNLRN
-PDBQT saved: ../results/peptide_structure/peptide_34.pdbqt
-Processing peptide 35: HFQLRN
-PDBQT saved: ../results/peptide_structure/peptide_35.pdbqt
-Processing peptide 531: SVSLRN
-PDBQT saved: ../results/peptide_structure/peptide_531.pdbqt
-Processing peptide 54: SAGLRN
-PDBQT saved: ../results/peptide_structure/peptide_54.pdbqt
-Processing peptide 55: SAHLRN
-PDBQT saved: ../results/peptide_structure/peptide_55.pdbqt
-Processing peptide 56: SAILRN
-PDBQT saved: ../results/peptide_structure/peptide_56.pdbqt
-Processing peptide 57: SALARN
-PDBQT saved: ../results/peptide_structure/peptide_57.pdbqt
-Processing peptide 58: SALRRN
-PDBQT saved: ../results/peptide_structure/peptide_58.pdbqt
-Processing peptide 59: SALNRN
-PDBQT saved: ../results/peptide_structure/peptide_59.pdbqt
-Processing peptide 60: SALDRN
-PDBQT saved: ../results/peptide_structure/peptide_60.pdbqt
-Processing peptide 61: SALERN
-PDBQT saved: ../results/peptide_structure/peptide_61.pdbqt
-Processing peptide 62: SALQRN
-PDBQT saved: ../results/peptide_structure/peptide_62.pdbqt
-Processing peptide 216: SFALRG
-PDBQT saved: ../results/peptide_structure/peptide_216.pdbqt
-Processing peptide 217: SFALRH
-PDBQT saved: ../results/peptide_structure/peptide_217.pdbqt
-Processing peptide 218: SFALRK
-PDBQT saved: ../results/peptide_structure/peptide_218.pdbqt
-Processing peptide 219: SFALRS
-PDBQT saved: ../results/peptide_structure/peptide_219.pdbqt
-Processing peptide 220: SFALHN
-PDBQT saved: ../results/peptide_structure/peptide_220.pdbqt
-Processing peptide 221: SFALKN
-PDBQT saved: ../results/peptide_structure/peptide_221.pdbqt
-Processing peptide 222: SFAKRN
-PDBQT saved: ../results/peptide_structure/peptide_222.pdbqt
-Processing peptide 223: SFAFRN
-PDBQT saved: ../results/peptide_structure/peptide_223.pdbqt
-Processing peptide 224: SFAPRN
-PDBQT saved: ../results/peptide_structure/peptide_224.pdbqt
-Processing peptide 342: SFLARN
-PDBQT saved: ../results/peptide_structure/peptide_342.pdbqt
-Processing peptide 343: SFLARQ
-PDBQT saved: ../results/peptide_structure/peptide_343.pdbqt
-Processing peptide 344: SFLARG
-PDBQT saved: ../results/peptide_structure/peptide_344.pdbqt
-Processing peptide 345: SFLARH
-PDBQT saved: ../results/peptide_structure/peptide_345.pdbqt
-Processing peptide 346: SFLARK
-PDBQT saved: ../results/peptide_structure/peptide_346.pdbqt
-Processing peptide 347: SFLARS
-PDBQT saved: ../results/peptide_structure/peptide_347.pdbqt
-Processing peptide 348: SFLAHN
-PDBQT saved: ../results/peptide_structure/peptide_348.pdbqt
-Processing peptide 349: SFLAKN
-PDBQT saved: ../results/peptide_structure/peptide_349.pdbqt
-Processing peptide 350: SFLRAN
-PDBQT saved: ../results/peptide_structure/peptide_350.pdbqt
-Processing peptide 432: SFLSRS
-PDBQT saved: ../results/peptide_structure/peptide_432.pdbqt
-Processing peptide 433: SFLSHN
-PDBQT saved: ../results/peptide_structure/peptide_433.pdbqt
-Processing peptide 434: SFLSKN
-PDBQT saved: ../results/peptide_structure/peptide_434.pdbqt
-Processing peptide 435: SFKARN
-PDBQT saved: ../results/peptide_structure/peptide_435.pdbqt
-Processing peptide 436: SFKGRN
-PDBQT saved: ../results/peptide_structure/peptide_436.pdbqt
-Processing peptide 437: SFKIRN
-PDBQT saved: ../results/peptide_structure/peptide_437.pdbqt
-Processing peptide 438: SFKLAN
-PDBQT saved: ../results/peptide_structure/peptide_438.pdbqt
-Processing peptide 439: SFKLRA
-PDBQT saved: ../results/peptide_structure/peptide_439.pdbqt
-Processing peptide 440: SFKLRR
-PDBQT saved: ../results/peptide_structure/peptide_440.pdbqt
-Processing peptide 90: SRPLRN
-PDBQT saved: ../results/peptide_structure/peptide_90.pdbqt
-Processing peptide 91: SRVLRN
-PDBQT saved: ../results/peptide_structure/peptide_91.pdbqt
-Processing peptide 92: SNALRN
-PDBQT saved: ../results/peptide_structure/peptide_92.pdbqt
-Processing peptide 93: SNGLRN
-PDBQT saved: ../results/peptide_structure/peptide_93.pdbqt
-Processing peptide 94: SNILRN
-PDBQT saved: ../results/peptide_structure/peptide_94.pdbqt
-Processing peptide 95: SNLARN
-PDBQT saved: ../results/peptide_structure/peptide_95.pdbqt
-Processing peptide 96: SNLGRN
-PDBQT saved: ../results/peptide_structure/peptide_96.pdbqt
-Processing peptide 97: SNLIRN
-PDBQT saved: ../results/peptide_structure/peptide_97.pdbqt
-Processing peptide 98: SNLFRN
-PDBQT saved: ../results/peptide_structure/peptide_98.pdbqt
-Processing peptide 162: SHLPRN
-PDBQT saved: ../results/peptide_structure/peptide_162.pdbqt
-Processing peptide 163: SHLVRN
-PDBQT saved: ../results/peptide_structure/peptide_163.pdbqt
-Processing peptide 164: SHFLRN
-PDBQT saved: ../results/peptide_structure/peptide_164.pdbqt
-Processing peptide 165: SHPLRN
-PDBQT saved: ../results/peptide_structure/peptide_165.pdbqt
-Processing peptide 166: SHVLRN
-PDBQT saved: ../results/peptide_structure/peptide_166.pdbqt
-Processing peptide 167: SIALRN
-PDBQT saved: ../results/peptide_structure/peptide_167.pdbqt
-Processing peptide 168: SIRLRN
-PDBQT saved: ../results/peptide_structure/peptide_168.pdbqt
-Processing peptide 169: SINLRN
-PDBQT saved: ../results/peptide_structure/peptide_169.pdbqt
-Processing peptide 170: SIQLRN
-PDBQT saved: ../results/peptide_structure/peptide_170.pdbqt
-Processing peptide 306: SFGPRN
-PDBQT saved: ../results/peptide_structure/peptide_306.pdbqt
-Processing peptide 307: SFGSRN
-PDBQT saved: ../results/peptide_structure/peptide_307.pdbqt
-Processing peptide 308: SFGTRN
-PDBQT saved: ../results/peptide_structure/peptide_308.pdbqt
-Processing peptide 309: SFGYRN
-PDBQT saved: ../results/peptide_structure/peptide_309.pdbqt
-Processing peptide 310: SFGVRN
-PDBQT saved: ../results/peptide_structure/peptide_310.pdbqt
-Processing peptide 311: SFHARN
-PDBQT saved: ../results/peptide_structure/peptide_311.pdbqt
-Processing peptide 312: SFHGRN
-PDBQT saved: ../results/peptide_structure/peptide_312.pdbqt
-Processing peptide 313: SFHIRN
-PDBQT saved: ../results/peptide_structure/peptide_313.pdbqt
-Processing peptide 314: SFHLAN
-PDBQT saved: ../results/peptide_structure/peptide_314.pdbqt
-Processing peptide 378: SFLQRQ
-PDBQT saved: ../results/peptide_structure/peptide_378.pdbqt
-Processing peptide 379: SFLQRG
-PDBQT saved: ../results/peptide_structure/peptide_379.pdbqt
-Processing peptide 380: SFLQRH
-PDBQT saved: ../results/peptide_structure/peptide_380.pdbqt
-Processing peptide 381: SFLQRK
-PDBQT saved: ../results/peptide_structure/peptide_381.pdbqt
-Processing peptide 382: SFLQRS
-PDBQT saved: ../results/peptide_structure/peptide_382.pdbqt
-Processing peptide 383: SFLQHN
-PDBQT saved: ../results/peptide_structure/peptide_383.pdbqt
-Processing peptide 384: SFLQKN
-PDBQT saved: ../results/peptide_structure/peptide_384.pdbqt
-Processing peptide 385: SFLGRA
-PDBQT saved: ../results/peptide_structure/peptide_385.pdbqt
-Processing peptide 386: SFLGRR
-PDBQT saved: ../results/peptide_structure/peptide_386.pdbqt
-Processing peptide 468: SFSLRR
-PDBQT saved: ../results/peptide_structure/peptide_468.pdbqt
-Processing peptide 469: SFSLRN
-PDBQT saved: ../results/peptide_structure/peptide_469.pdbqt
-Processing peptide 470: SFSLRQ
-PDBQT saved: ../results/peptide_structure/peptide_470.pdbqt
-Processing peptide 471: SFSLRG
-PDBQT saved: ../results/peptide_structure/peptide_471.pdbqt
-Processing peptide 472: SFSLRH
-PDBQT saved: ../results/peptide_structure/peptide_472.pdbqt
-Processing peptide 473: SFSLRK
-PDBQT saved: ../results/peptide_structure/peptide_473.pdbqt
-Processing peptide 474: SFSLRS
-PDBQT saved: ../results/peptide_structure/peptide_474.pdbqt
-Processing peptide 475: SFSLHN
-PDBQT saved: ../results/peptide_structure/peptide_475.pdbqt
-Processing peptide 476: SFSLKN
-PDBQT saved: ../results/peptide_structure/peptide_476.pdbqt
-Processing peptide 9: AFLQRN
-PDBQT saved: ../results/peptide_structure/peptide_9.pdbqt
-Processing peptide 10: AFLGRN
-PDBQT saved: ../results/peptide_structure/peptide_10.pdbqt
-Processing peptide 11: AFLHRN
-PDBQT saved: ../results/peptide_structure/peptide_11.pdbqt
-Processing peptide 12: AFLKRN
-PDBQT saved: ../results/peptide_structure/peptide_12.pdbqt
-Processing peptide 13: AFLSRN
-PDBQT saved: ../results/peptide_structure/peptide_13.pdbqt
-Processing peptide 14: AFKLRN
-PDBQT saved: ../results/peptide_structure/peptide_14.pdbqt
-Processing peptide 15: AFSLRN
-PDBQT saved: ../results/peptide_structure/peptide_15.pdbqt
-Processing peptide 16: GFALRN
-PDBQT saved: ../results/peptide_structure/peptide_16.pdbqt
-Processing peptide 17: GFRLRN
-PDBQT saved: ../results/peptide_structure/peptide_17.pdbqt
-Processing peptide 207: SFAERN
-PDBQT saved: ../results/peptide_structure/peptide_207.pdbqt
-Processing peptide 208: SFAQRN
-PDBQT saved: ../results/peptide_structure/peptide_208.pdbqt
-Processing peptide 209: SFAGRN
-PDBQT saved: ../results/peptide_structure/peptide_209.pdbqt
-Processing peptide 210: SFAHRN
-PDBQT saved: ../results/peptide_structure/peptide_210.pdbqt
-Processing peptide 211: SFAIRN
-PDBQT saved: ../results/peptide_structure/peptide_211.pdbqt
-Processing peptide 212: SFALRA
-PDBQT saved: ../results/peptide_structure/peptide_212.pdbqt
-Processing peptide 213: SFALRR
-PDBQT saved: ../results/peptide_structure/peptide_213.pdbqt
-Processing peptide 214: SFALRN
-PDBQT saved: ../results/peptide_structure/peptide_214.pdbqt
-Processing peptide 215: SFALRQ
-PDBQT saved: ../results/peptide_structure/peptide_215.pdbqt
-Processing peptide 288: SFGDRN
-PDBQT saved: ../results/peptide_structure/peptide_288.pdbqt
-Processing peptide 289: SFGERN
-PDBQT saved: ../results/peptide_structure/peptide_289.pdbqt
-Processing peptide 290: SFGQRN
-PDBQT saved: ../results/peptide_structure/peptide_290.pdbqt
-Processing peptide 291: SFGGRN
-PDBQT saved: ../results/peptide_structure/peptide_291.pdbqt
-Processing peptide 292: SFGHRN
-PDBQT saved: ../results/peptide_structure/peptide_292.pdbqt
-Processing peptide 293: SFGIRN
-PDBQT saved: ../results/peptide_structure/peptide_293.pdbqt
-Processing peptide 294: SFGLRA
-PDBQT saved: ../results/peptide_structure/peptide_294.pdbqt
-Processing peptide 295: SFGLRR
-PDBQT saved: ../results/peptide_structure/peptide_295.pdbqt
-Processing peptide 296: SFGLRN
-PDBQT saved: ../results/peptide_structure/peptide_296.pdbqt
-Processing peptide 441: SFKLRN
-PDBQT saved: ../results/peptide_structure/peptide_441.pdbqt
-Processing peptide 442: SFKLRQ
-PDBQT saved: ../results/peptide_structure/peptide_442.pdbqt
-Processing peptide 443: SFKLRG
-PDBQT saved: ../results/peptide_structure/peptide_443.pdbqt
-Processing peptide 444: SFKLRH
-PDBQT saved: ../results/peptide_structure/peptide_444.pdbqt
-Processing peptide 445: SFKLRK
-PDBQT saved: ../results/peptide_structure/peptide_445.pdbqt
-Processing peptide 446: SFKLRS
-PDBQT saved: ../results/peptide_structure/peptide_446.pdbqt
-Processing peptide 447: SFKLNN
-PDBQT saved: ../results/peptide_structure/peptide_447.pdbqt
-Processing peptide 448: SFKLQN
-PDBQT saved: ../results/peptide_structure/peptide_448.pdbqt
-Processing peptide 449: SFKLGN
-PDBQT saved: ../results/peptide_structure/peptide_449.pdbqt
-Processing peptide 72: SALVRN
-PDBQT saved: ../results/peptide_structure/peptide_72.pdbqt
-Processing peptide 73: SAKLRN
-PDBQT saved: ../results/peptide_structure/peptide_73.pdbqt
-Processing peptide 74: SAFLRN
-PDBQT saved: ../results/peptide_structure/peptide_74.pdbqt
-Processing peptide 75: SAPLRN
-PDBQT saved: ../results/peptide_structure/peptide_75.pdbqt
-Processing peptide 76: SASLRN
-PDBQT saved: ../results/peptide_structure/peptide_76.pdbqt
-Processing peptide 77: SATLRN
-PDBQT saved: ../results/peptide_structure/peptide_77.pdbqt
-Processing peptide 78: SAYLRN
-PDBQT saved: ../results/peptide_structure/peptide_78.pdbqt
-Processing peptide 79: SAVLRN
-PDBQT saved: ../results/peptide_structure/peptide_79.pdbqt
-Processing peptide 80: SRALRN
-PDBQT saved: ../results/peptide_structure/peptide_80.pdbqt
-Processing peptide 243: SFRLGN
-PDBQT saved: ../results/peptide_structure/peptide_243.pdbqt
-Processing peptide 244: SFRLHN
-PDBQT saved: ../results/peptide_structure/peptide_244.pdbqt
-Processing peptide 245: SFRLKN
-PDBQT saved: ../results/peptide_structure/peptide_245.pdbqt
-Processing peptide 246: SFRLSN
-PDBQT saved: ../results/peptide_structure/peptide_246.pdbqt
-Processing peptide 247: SFRFRN
-PDBQT saved: ../results/peptide_structure/peptide_247.pdbqt
-Processing peptide 248: SFRPRN
-PDBQT saved: ../results/peptide_structure/peptide_248.pdbqt
-Processing peptide 249: SFRVRN
-PDBQT saved: ../results/peptide_structure/peptide_249.pdbqt
-Processing peptide 250: SFNARN
-PDBQT saved: ../results/peptide_structure/peptide_250.pdbqt
-Processing peptide 251: SFNGRN
-PDBQT saved: ../results/peptide_structure/peptide_251.pdbqt
-Processing peptide 423: SFLKKN
-PDBQT saved: ../results/peptide_structure/peptide_423.pdbqt
-Processing peptide 424: SFLKSN
-PDBQT saved: ../results/peptide_structure/peptide_424.pdbqt
-Processing peptide 425: SFLSRA
-PDBQT saved: ../results/peptide_structure/peptide_425.pdbqt
-Processing peptide 426: SFLSRR
-PDBQT saved: ../results/peptide_structure/peptide_426.pdbqt
-Processing peptide 427: SFLSRN
-PDBQT saved: ../results/peptide_structure/peptide_427.pdbqt
-Processing peptide 428: SFLSRQ
-PDBQT saved: ../results/peptide_structure/peptide_428.pdbqt
-Processing peptide 429: SFLSRG
-PDBQT saved: ../results/peptide_structure/peptide_429.pdbqt
-Processing peptide 430: SFLSRH
-PDBQT saved: ../results/peptide_structure/peptide_430.pdbqt
-Processing peptide 431: SFLSRK
-PDBQT saved: ../results/peptide_structure/peptide_431.pdbqt
-Processing peptide 0: AFALRN
-PDBQT saved: ../results/peptide_structure/peptide_0.pdbqt
-Processing peptide 1: AFRLRN
-PDBQT saved: ../results/peptide_structure/peptide_1.pdbqt
-Processing peptide 2: AFNLRN
-PDBQT saved: ../results/peptide_structure/peptide_2.pdbqt
-Processing peptide 3: AFQLRN
-PDBQT saved: ../results/peptide_structure/peptide_3.pdbqt
-Processing peptide 4: AFGLRN
-PDBQT saved: ../results/peptide_structure/peptide_4.pdbqt
-Processing peptide 5: AFHLRN
-PDBQT saved: ../results/peptide_structure/peptide_5.pdbqt
-Processing peptide 6: AFLARN
-PDBQT saved: ../results/peptide_structure/peptide_6.pdbqt
-Processing peptide 7: AFLRRN
-PDBQT saved: ../results/peptide_structure/peptide_7.pdbqt
-Processing peptide 8: AFLNRN
-PDBQT saved: ../results/peptide_structure/peptide_8.pdbqt
-Processing peptide 144: SGLSRN
-PDBQT saved: ../results/peptide_structure/peptide_144.pdbqt
-Processing peptide 145: SGLTRN
-PDBQT saved: ../results/peptide_structure/peptide_145.pdbqt
-Processing peptide 146: SGLYRN
-PDBQT saved: ../results/peptide_structure/peptide_146.pdbqt
-Processing peptide 147: SGLVRN
-PDBQT saved: ../results/peptide_structure/peptide_147.pdbqt
-Processing peptide 148: SGKLRN
-PDBQT saved: ../results/peptide_structure/peptide_148.pdbqt
-Processing peptide 149: SGFLRN
-PDBQT saved: ../results/peptide_structure/peptide_149.pdbqt
-Processing peptide 150: SGPLRN
-PDBQT saved: ../results/peptide_structure/peptide_150.pdbqt
-Processing peptide 151: SGSLRN
-PDBQT saved: ../results/peptide_structure/peptide_151.pdbqt
-Processing peptide 152: SGTLRN
-PDBQT saved: ../results/peptide_structure/peptide_152.pdbqt
-Processing peptide 225: SFASRN
-PDBQT saved: ../results/peptide_structure/peptide_225.pdbqt
-Processing peptide 226: SFATRN
-PDBQT saved: ../results/peptide_structure/peptide_226.pdbqt
-Processing peptide 227: SFAYRN
-PDBQT saved: ../results/peptide_structure/peptide_227.pdbqt
-Processing peptide 228: SFAVRN
-PDBQT saved: ../results/peptide_structure/peptide_228.pdbqt
-Processing peptide 229: SFRARN
-PDBQT saved: ../results/peptide_structure/peptide_229.pdbqt
-Processing peptide 230: SFRGRN
-PDBQT saved: ../results/peptide_structure/peptide_230.pdbqt
-Processing peptide 231: SFRIRN
-PDBQT saved: ../results/peptide_structure/peptide_231.pdbqt
-Processing peptide 232: SFRLAN
-PDBQT saved: ../results/peptide_structure/peptide_232.pdbqt
-Processing peptide 233: SFRLRA
-PDBQT saved: ../results/peptide_structure/peptide_233.pdbqt
-Processing peptide 414: SFLKRQ
-PDBQT saved: ../results/peptide_structure/peptide_414.pdbqt
-Processing peptide 415: SFLKRG
-PDBQT saved: ../results/peptide_structure/peptide_415.pdbqt
-Processing peptide 416: SFLKRH
-PDBQT saved: ../results/peptide_structure/peptide_416.pdbqt
-Processing peptide 417: SFLKRK
-PDBQT saved: ../results/peptide_structure/peptide_417.pdbqt
-Processing peptide 418: SFLKRS
-PDBQT saved: ../results/peptide_structure/peptide_418.pdbqt
-Processing peptide 419: SFLKNN
-PDBQT saved: ../results/peptide_structure/peptide_419.pdbqt
-Processing peptide 420: SFLKQN
-PDBQT saved: ../results/peptide_structure/peptide_420.pdbqt
-Processing peptide 421: SFLKGN
-PDBQT saved: ../results/peptide_structure/peptide_421.pdbqt
-Processing peptide 422: SFLKHN
-PDBQT saved: ../results/peptide_structure/peptide_422.pdbqt
-Processing peptide 36: HFGLRN
-PDBQT saved: ../results/peptide_structure/peptide_36.pdbqt
-Processing peptide 37: HFHLRN
-PDBQT saved: ../results/peptide_structure/peptide_37.pdbqt
-Processing peptide 38: HFLARN
-PDBQT saved: ../results/peptide_structure/peptide_38.pdbqt
-Processing peptide 39: HFLRRN
-PDBQT saved: ../results/peptide_structure/peptide_39.pdbqt
-Processing peptide 40: HFLNRN
-PDBQT saved: ../results/peptide_structure/peptide_40.pdbqt
-Processing peptide 41: HFLQRN
-PDBQT saved: ../results/peptide_structure/peptide_41.pdbqt
-Processing peptide 42: HFLGRN
-PDBQT saved: ../results/peptide_structure/peptide_42.pdbqt
-Processing peptide 43: HFLHRN
-PDBQT saved: ../results/peptide_structure/peptide_43.pdbqt
-Processing peptide 44: HFLKRN
-PDBQT saved: ../results/peptide_structure/peptide_44.pdbqt
-Processing peptide 315: SFHLRA
-PDBQT saved: ../results/peptide_structure/peptide_315.pdbqt
-Processing peptide 316: SFHLRR
-PDBQT saved: ../results/peptide_structure/peptide_316.pdbqt
-Processing peptide 317: SFHLRN
-PDBQT saved: ../results/peptide_structure/peptide_317.pdbqt
-Processing peptide 318: SFHLRQ
-PDBQT saved: ../results/peptide_structure/peptide_318.pdbqt
-Processing peptide 319: SFHLRG
-PDBQT saved: ../results/peptide_structure/peptide_319.pdbqt
-Processing peptide 320: SFHLRH
-PDBQT saved: ../results/peptide_structure/peptide_320.pdbqt
-Processing peptide 321: SFHLRK
-PDBQT saved: ../results/peptide_structure/peptide_321.pdbqt
-Processing peptide 322: SFHLRS
-PDBQT saved: ../results/peptide_structure/peptide_322.pdbqt
-Processing peptide 323: SFHLNN
-PDBQT saved: ../results/peptide_structure/peptide_323.pdbqt
-Processing peptide 396: SFLHRA
-PDBQT saved: ../results/peptide_structure/peptide_396.pdbqt
-Processing peptide 397: SFLHRR
-PDBQT saved: ../results/peptide_structure/peptide_397.pdbqt
-Processing peptide 398: SFLHRN
-PDBQT saved: ../results/peptide_structure/peptide_398.pdbqt
-Processing peptide 399: SFLHRQ
-PDBQT saved: ../results/peptide_structure/peptide_399.pdbqt
-Processing peptide 400: SFLHRG
-PDBQT saved: ../results/peptide_structure/peptide_400.pdbqt
-Processing peptide 401: SFLHRH
-PDBQT saved: ../results/peptide_structure/peptide_401.pdbqt
-Processing peptide 402: SFLHRK
-PDBQT saved: ../results/peptide_structure/peptide_402.pdbqt
-Processing peptide 403: SFLHRS
-PDBQT saved: ../results/peptide_structure/peptide_403.pdbqt
-Processing peptide 404: SFLHNN
-PDBQT saved: ../results/peptide_structure/peptide_404.pdbqt
-Processing peptide 18: GFNLRN
-PDBQT saved: ../results/peptide_structure/peptide_18.pdbqt
-Processing peptide 19: GFQLRN
-PDBQT saved: ../results/peptide_structure/peptide_19.pdbqt
-Processing peptide 20: GFGLRN
-PDBQT saved: ../results/peptide_structure/peptide_20.pdbqt
-Processing peptide 21: GFHLRN
-PDBQT saved: ../results/peptide_structure/peptide_21.pdbqt
-Processing peptide 22: GFLARN
-PDBQT saved: ../results/peptide_structure/peptide_22.pdbqt
-Processing peptide 23: GFLRRN
-PDBQT saved: ../results/peptide_structure/peptide_23.pdbqt
-Processing peptide 24: GFLNRN
-PDBQT saved: ../results/peptide_structure/peptide_24.pdbqt
-Processing peptide 25: GFLQRN
-PDBQT saved: ../results/peptide_structure/peptide_25.pdbqt
-Processing peptide 26: GFLGRN
-PDBQT saved: ../results/peptide_structure/peptide_26.pdbqt
-Processing peptide 198: SKLPRN
-PDBQT saved: ../results/peptide_structure/peptide_198.pdbqt
-Processing peptide 199: SKLVRN
-PDBQT saved: ../results/peptide_structure/peptide_199.pdbqt
-Processing peptide 200: SKFLRN
-PDBQT saved: ../results/peptide_structure/peptide_200.pdbqt
-Processing peptide 201: SKPLRN
-PDBQT saved: ../results/peptide_structure/peptide_201.pdbqt
-Processing peptide 202: SKVLRN
-PDBQT saved: ../results/peptide_structure/peptide_202.pdbqt
-Processing peptide 203: SFAARN
-PDBQT saved: ../results/peptide_structure/peptide_203.pdbqt
-Processing peptide 204: SFARRN
-PDBQT saved: ../results/peptide_structure/peptide_204.pdbqt
-Processing peptide 205: SFANRN
-PDBQT saved: ../results/peptide_structure/peptide_205.pdbqt
-Processing peptide 206: SFADRN
-PDBQT saved: ../results/peptide_structure/peptide_206.pdbqt
-Processing peptide 351: SFLRRA
-PDBQT saved: ../results/peptide_structure/peptide_351.pdbqt
-Processing peptide 352: SFLRRR
-Failed to embed the 3D structure.
-Failed to generate 3D structure for peptide 352
-Processing peptide 353: SFLRRN
-PDBQT saved: ../results/peptide_structure/peptide_353.pdbqt
-Processing peptide 354: SFLRRQ
-PDBQT saved: ../results/peptide_structure/peptide_354.pdbqt
-Processing peptide 355: SFLRRG
-PDBQT saved: ../results/peptide_structure/peptide_355.pdbqt
-Processing peptide 356: SFLRRH
-PDBQT saved: ../results/peptide_structure/peptide_356.pdbqt
-Processing peptide 357: SFLRRK
-PDBQT saved: ../results/peptide_structure/peptide_357.pdbqt
-Processing peptide 358: SFLRRS
-PDBQT saved: ../results/peptide_structure/peptide_358.pdbqt
-Processing peptide 359: SFLRNN
-PDBQT saved: ../results/peptide_structure/peptide_359.pdbqt
-Processing peptide 477: SFSFRN
-PDBQT saved: ../results/peptide_structure/peptide_477.pdbqt
-Processing peptide 478: SFSPRN
-PDBQT saved: ../results/peptide_structure/peptide_478.pdbqt
-Processing peptide 479: SFSVRN
-PDBQT saved: ../results/peptide_structure/peptide_479.pdbqt
-Processing peptide 480: SFTARN
-PDBQT saved: ../results/peptide_structure/peptide_480.pdbqt
-Processing peptide 481: SFTGRN
-PDBQT saved: ../results/peptide_structure/peptide_481.pdbqt
-Processing peptide 482: SFYARN
-PDBQT saved: ../results/peptide_structure/peptide_482.pdbqt
-Processing peptide 483: SFYGRN
-PDBQT saved: ../results/peptide_structure/peptide_483.pdbqt
-Processing peptide 484: SFVARN
-PDBQT saved: ../results/peptide_structure/peptide_484.pdbqt
-Processing peptide 485: SFVRRN
-PDBQT saved: ../results/peptide_structure/peptide_485.pdbqt
-Processing peptide 63: SALGRN
-PDBQT saved: ../results/peptide_structure/peptide_63.pdbqt
-Processing peptide 64: SALHRN
-PDBQT saved: ../results/peptide_structure/peptide_64.pdbqt
-Processing peptide 65: SALIRN
-PDBQT saved: ../results/peptide_structure/peptide_65.pdbqt
-Processing peptide 66: SALKRN
-PDBQT saved: ../results/peptide_structure/peptide_66.pdbqt
-Processing peptide 67: SALFRN
-PDBQT saved: ../results/peptide_structure/peptide_67.pdbqt
-Processing peptide 68: SALPRN
-PDBQT saved: ../results/peptide_structure/peptide_68.pdbqt
-Processing peptide 69: SALSRN
-PDBQT saved: ../results/peptide_structure/peptide_69.pdbqt
-Processing peptide 70: SALTRN
-PDBQT saved: ../results/peptide_structure/peptide_70.pdbqt
-Processing peptide 71: SALYRN
-PDBQT saved: ../results/peptide_structure/peptide_71.pdbqt
-Processing peptide 171: SIGLRN
-PDBQT saved: ../results/peptide_structure/peptide_171.pdbqt
-Processing peptide 172: SIHLRN
-PDBQT saved: ../results/peptide_structure/peptide_172.pdbqt
-Processing peptide 173: SILARN
-PDBQT saved: ../results/peptide_structure/peptide_173.pdbqt
-Processing peptide 174: SILRRN
-PDBQT saved: ../results/peptide_structure/peptide_174.pdbqt
-Processing peptide 175: SILNRN
-PDBQT saved: ../results/peptide_structure/peptide_175.pdbqt
-Processing peptide 176: SILQRN
-PDBQT saved: ../results/peptide_structure/peptide_176.pdbqt
-Processing peptide 177: SILGRN
-PDBQT saved: ../results/peptide_structure/peptide_177.pdbqt
-Processing peptide 178: SILHRN
-PDBQT saved: ../results/peptide_structure/peptide_178.pdbqt
-Processing peptide 179: SILKRN
-PDBQT saved: ../results/peptide_structure/peptide_179.pdbqt
-Processing peptide 252: SFNIRN
-PDBQT saved: ../results/peptide_structure/peptide_252.pdbqt
-Processing peptide 253: SFNLRA
-PDBQT saved: ../results/peptide_structure/peptide_253.pdbqt
-Processing peptide 254: SFNLRR
-PDBQT saved: ../results/peptide_structure/peptide_254.pdbqt
-Processing peptide 255: SFNLRN
-PDBQT saved: ../results/peptide_structure/peptide_255.pdbqt
-Processing peptide 256: SFNLRQ
-PDBQT saved: ../results/peptide_structure/peptide_256.pdbqt
-Processing peptide 257: SFNLRG
-PDBQT saved: ../results/peptide_structure/peptide_257.pdbqt
-Processing peptide 258: SFNLRH
-PDBQT saved: ../results/peptide_structure/peptide_258.pdbqt
-Processing peptide 259: SFNLRK
-PDBQT saved: ../results/peptide_structure/peptide_259.pdbqt
-Processing peptide 260: SFNLRS
-PDBQT saved: ../results/peptide_structure/peptide_260.pdbqt
-Processing peptide 387: SFLGRN
-PDBQT saved: ../results/peptide_structure/peptide_387.pdbqt
-Processing peptide 388: SFLGRQ
-PDBQT saved: ../results/peptide_structure/peptide_388.pdbqt
-Processing peptide 389: SFLGRG
-PDBQT saved: ../results/peptide_structure/peptide_389.pdbqt
-Processing peptide 390: SFLGRH
-PDBQT saved: ../results/peptide_structure/peptide_390.pdbqt
-Processing peptide 391: SFLGRK
-PDBQT saved: ../results/peptide_structure/peptide_391.pdbqt
-Processing peptide 392: SFLGRS
-PDBQT saved: ../results/peptide_structure/peptide_392.pdbqt
-Processing peptide 393: SFLGHN
-PDBQT saved: ../results/peptide_structure/peptide_393.pdbqt
-Processing peptide 394: SFLGKN
-PDBQT saved: ../results/peptide_structure/peptide_394.pdbqt
-Processing peptide 395: SFLHAN
-PDBQT saved: ../results/peptide_structure/peptide_395.pdbqt
-Processing peptide 513: SYGLRN
-PDBQT saved: ../results/peptide_structure/peptide_513.pdbqt
-Processing peptide 514: SYLARN
-PDBQT saved: ../results/peptide_structure/peptide_514.pdbqt
-Processing peptide 515: SYLGRN
-PDBQT saved: ../results/peptide_structure/peptide_515.pdbqt
-Processing peptide 516: SVALRN
-PDBQT saved: ../results/peptide_structure/peptide_516.pdbqt
-Processing peptide 517: SVRLRN
-PDBQT saved: ../results/peptide_structure/peptide_517.pdbqt
-Processing peptide 518: SVNLRN
-PDBQT saved: ../results/peptide_structure/peptide_518.pdbqt
-Processing peptide 519: SVQLRN
-PDBQT saved: ../results/peptide_structure/peptide_519.pdbqt
-Processing peptide 520: SVGLRN
-PDBQT saved: ../results/peptide_structure/peptide_520.pdbqt
-Processing peptide 521: SVHLRN
-PDBQT saved: ../results/peptide_structure/peptide_521.pdbqt
 Processing peptide 117: SQLFRN
-PDBQT saved: ../results/peptide_structure/peptide_117.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLFRN.pdbqt
 Processing peptide 118: SQLPRN
-PDBQT saved: ../results/peptide_structure/peptide_118.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLPRN.pdbqt
 Processing peptide 119: SQLVRN
-PDBQT saved: ../results/peptide_structure/peptide_119.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLVRN.pdbqt
 Processing peptide 120: SQFLRN
-PDBQT saved: ../results/peptide_structure/peptide_120.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQFLRN.pdbqt
 Processing peptide 121: SQPLRN
-PDBQT saved: ../results/peptide_structure/peptide_121.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQPLRN.pdbqt
 Processing peptide 122: SQVLRN
-PDBQT saved: ../results/peptide_structure/peptide_122.pdbqt
+PDB saved: ../results/pdb_files/peptide_SQVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQVLRN.pdbqt
 Processing peptide 123: SGALRN
-PDBQT saved: ../results/peptide_structure/peptide_123.pdbqt
+PDB saved: ../results/pdb_files/peptide_SGALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGALRN.pdbqt
 Processing peptide 124: SGRLRN
-PDBQT saved: ../results/peptide_structure/peptide_124.pdbqt
+PDB saved: ../results/pdb_files/peptide_SGRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGRLRN.pdbqt
 Processing peptide 125: SGNLRN
-PDBQT saved: ../results/peptide_structure/peptide_125.pdbqt
+PDB saved: ../results/pdb_files/peptide_SGNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGNLRN.pdbqt
 Processing peptide 189: SLKLRN
-PDBQT saved: ../results/peptide_structure/peptide_189.pdbqt
+PDB saved: ../results/pdb_files/peptide_SLKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLKLRN.pdbqt
 Processing peptide 190: SLSLRN
-PDBQT saved: ../results/peptide_structure/peptide_190.pdbqt
+PDB saved: ../results/pdb_files/peptide_SLSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLSLRN.pdbqt
 Processing peptide 191: SKALRN
-PDBQT saved: ../results/peptide_structure/peptide_191.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKALRN.pdbqt
 Processing peptide 192: SKGLRN
-PDBQT saved: ../results/peptide_structure/peptide_192.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKGLRN.pdbqt
 Processing peptide 193: SKILRN
-PDBQT saved: ../results/peptide_structure/peptide_193.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKILRN.pdbqt
 Processing peptide 194: SKLARN
-PDBQT saved: ../results/peptide_structure/peptide_194.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLARN.pdbqt
 Processing peptide 195: SKLGRN
-PDBQT saved: ../results/peptide_structure/peptide_195.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLGRN.pdbqt
 Processing peptide 196: SKLIRN
-PDBQT saved: ../results/peptide_structure/peptide_196.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLIRN.pdbqt
 Processing peptide 197: SKLFRN
-PDBQT saved: ../results/peptide_structure/peptide_197.pdbqt
-Processing peptide 297: SFGLRQ
-PDBQT saved: ../results/peptide_structure/peptide_297.pdbqt
-Processing peptide 298: SFGLRG
-PDBQT saved: ../results/peptide_structure/peptide_298.pdbqt
-Processing peptide 299: SFGLRH
-PDBQT saved: ../results/peptide_structure/peptide_299.pdbqt
-Processing peptide 300: SFGLRK
-PDBQT saved: ../results/peptide_structure/peptide_300.pdbqt
-Processing peptide 301: SFGLRS
-PDBQT saved: ../results/peptide_structure/peptide_301.pdbqt
-Processing peptide 302: SFGLHN
-PDBQT saved: ../results/peptide_structure/peptide_302.pdbqt
-Processing peptide 303: SFGLKN
-PDBQT saved: ../results/peptide_structure/peptide_303.pdbqt
-Processing peptide 304: SFGKRN
-PDBQT saved: ../results/peptide_structure/peptide_304.pdbqt
-Processing peptide 305: SFGFRN
-PDBQT saved: ../results/peptide_structure/peptide_305.pdbqt
+PDB saved: ../results/pdb_files/peptide_SKLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLFRN.pdbqt
+Processing peptide 315: SFHLRA
+PDB saved: ../results/pdb_files/peptide_SFHLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRA.pdbqt
+Processing peptide 316: SFHLRR
+PDB saved: ../results/pdb_files/peptide_SFHLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRR.pdbqt
+Processing peptide 317: SFHLRN
+PDB saved: ../results/pdb_files/peptide_SFHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRN.pdbqt
+Processing peptide 318: SFHLRQ
+PDB saved: ../results/pdb_files/peptide_SFHLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRQ.pdbqt
+Processing peptide 319: SFHLRG
+PDB saved: ../results/pdb_files/peptide_SFHLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRG.pdbqt
+Processing peptide 320: SFHLRH
+PDB saved: ../results/pdb_files/peptide_SFHLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRH.pdbqt
+Processing peptide 321: SFHLRK
+PDB saved: ../results/pdb_files/peptide_SFHLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRK.pdbqt
+Processing peptide 322: SFHLRS
+PDB saved: ../results/pdb_files/peptide_SFHLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLRS.pdbqt
+Processing peptide 323: SFHLNN
+PDB saved: ../results/pdb_files/peptide_SFHLNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLNN.pdbqt
+Processing peptide 441: SFKLRN
+PDB saved: ../results/pdb_files/peptide_SFKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRN.pdbqt
+Processing peptide 442: SFKLRQ
+PDB saved: ../results/pdb_files/peptide_SFKLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRQ.pdbqt
+Processing peptide 443: SFKLRG
+PDB saved: ../results/pdb_files/peptide_SFKLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRG.pdbqt
+Processing peptide 444: SFKLRH
+PDB saved: ../results/pdb_files/peptide_SFKLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRH.pdbqt
+Processing peptide 445: SFKLRK
+PDB saved: ../results/pdb_files/peptide_SFKLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRK.pdbqt
+Processing peptide 446: SFKLRS
+PDB saved: ../results/pdb_files/peptide_SFKLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRS.pdbqt
+Processing peptide 447: SFKLNN
+PDB saved: ../results/pdb_files/peptide_SFKLNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLNN.pdbqt
+Processing peptide 448: SFKLQN
+PDB saved: ../results/pdb_files/peptide_SFKLQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLQN.pdbqt
+Processing peptide 449: SFKLGN
+PDB saved: ../results/pdb_files/peptide_SFKLGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLGN.pdbqt
+Processing peptide 27: GFLHRN
+PDB saved: ../results/pdb_files/peptide_GFLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLHRN.pdbqt
+Processing peptide 28: GFLKRN
+PDB saved: ../results/pdb_files/peptide_GFLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLKRN.pdbqt
+Processing peptide 29: GFLSRN
+PDB saved: ../results/pdb_files/peptide_GFLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLSRN.pdbqt
+Processing peptide 30: GFKLRN
+PDB saved: ../results/pdb_files/peptide_GFKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFKLRN.pdbqt
+Processing peptide 31: GFSLRN
+PDB saved: ../results/pdb_files/peptide_GFSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFSLRN.pdbqt
+Processing peptide 32: HFALRN
+PDB saved: ../results/pdb_files/peptide_HFALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFALRN.pdbqt
+Processing peptide 33: HFRLRN
+PDB saved: ../results/pdb_files/peptide_HFRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFRLRN.pdbqt
+Processing peptide 34: HFNLRN
+PDB saved: ../results/pdb_files/peptide_HFNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFNLRN.pdbqt
+Processing peptide 35: HFQLRN
+PDB saved: ../results/pdb_files/peptide_HFQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFQLRN.pdbqt
+Processing peptide 243: SFRLGN
+PDB saved: ../results/pdb_files/peptide_SFRLGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLGN.pdbqt
+Processing peptide 244: SFRLHN
+PDB saved: ../results/pdb_files/peptide_SFRLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLHN.pdbqt
+Processing peptide 245: SFRLKN
+PDB saved: ../results/pdb_files/peptide_SFRLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLKN.pdbqt
+Processing peptide 246: SFRLSN
+PDB saved: ../results/pdb_files/peptide_SFRLSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLSN.pdbqt
+Processing peptide 247: SFRFRN
+PDB saved: ../results/pdb_files/peptide_SFRFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRFRN.pdbqt
+Processing peptide 248: SFRPRN
+PDB saved: ../results/pdb_files/peptide_SFRPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRPRN.pdbqt
+Processing peptide 249: SFRVRN
+PDB saved: ../results/pdb_files/peptide_SFRVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRVRN.pdbqt
+Processing peptide 250: SFNARN
+PDB saved: ../results/pdb_files/peptide_SFNARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNARN.pdbqt
+Processing peptide 251: SFNGRN
+PDB saved: ../results/pdb_files/peptide_SFNGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNGRN.pdbqt
 Processing peptide 405: SFLHQN
-PDBQT saved: ../results/peptide_structure/peptide_405.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLHQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHQN.pdbqt
 Processing peptide 406: SFLHGN
-PDBQT saved: ../results/peptide_structure/peptide_406.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLHGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHGN.pdbqt
 Processing peptide 407: SFLHHN
-PDBQT saved: ../results/peptide_structure/peptide_407.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLHHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHHN.pdbqt
 Processing peptide 408: SFLHKN
-PDBQT saved: ../results/peptide_structure/peptide_408.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLHKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHKN.pdbqt
 Processing peptide 409: SFLHSN
-PDBQT saved: ../results/peptide_structure/peptide_409.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLHSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHSN.pdbqt
 Processing peptide 410: SFLKAN
-PDBQT saved: ../results/peptide_structure/peptide_410.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLKAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKAN.pdbqt
 Processing peptide 411: SFLKRA
-PDBQT saved: ../results/peptide_structure/peptide_411.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLKRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRA.pdbqt
 Processing peptide 412: SFLKRR
-PDBQT saved: ../results/peptide_structure/peptide_412.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLKRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRR.pdbqt
 Processing peptide 413: SFLKRN
-PDBQT saved: ../results/peptide_structure/peptide_413.pdbqt
-Processing peptide 45: HFLSRN
-PDBQT saved: ../results/peptide_structure/peptide_45.pdbqt
-Processing peptide 46: HFKLRN
-PDBQT saved: ../results/peptide_structure/peptide_46.pdbqt
-Processing peptide 47: HFSLRN
-PDBQT saved: ../results/peptide_structure/peptide_47.pdbqt
-Processing peptide 48: SAALRN
-PDBQT saved: ../results/peptide_structure/peptide_48.pdbqt
-Processing peptide 49: SARLRN
-PDBQT saved: ../results/peptide_structure/peptide_49.pdbqt
-Processing peptide 50: SANLRN
-PDBQT saved: ../results/peptide_structure/peptide_50.pdbqt
-Processing peptide 51: SADLRN
-PDBQT saved: ../results/peptide_structure/peptide_51.pdbqt
-Processing peptide 52: SAELRN
-PDBQT saved: ../results/peptide_structure/peptide_52.pdbqt
-Processing peptide 53: SAQLRN
-PDBQT saved: ../results/peptide_structure/peptide_53.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRN.pdbqt
+Processing peptide 531: SVSLRN
+PDB saved: ../results/pdb_files/peptide_SVSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVSLRN.pdbqt
+Processing peptide 72: SALVRN
+PDB saved: ../results/pdb_files/peptide_SALVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALVRN.pdbqt
+Processing peptide 73: SAKLRN
+PDB saved: ../results/pdb_files/peptide_SAKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAKLRN.pdbqt
+Processing peptide 74: SAFLRN
+PDB saved: ../results/pdb_files/peptide_SAFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAFLRN.pdbqt
+Processing peptide 75: SAPLRN
+PDB saved: ../results/pdb_files/peptide_SAPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAPLRN.pdbqt
+Processing peptide 76: SASLRN
+PDB saved: ../results/pdb_files/peptide_SASLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SASLRN.pdbqt
+Processing peptide 77: SATLRN
+PDB saved: ../results/pdb_files/peptide_SATLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SATLRN.pdbqt
+Processing peptide 78: SAYLRN
+PDB saved: ../results/pdb_files/peptide_SAYLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAYLRN.pdbqt
+Processing peptide 79: SAVLRN
+PDB saved: ../results/pdb_files/peptide_SAVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAVLRN.pdbqt
+Processing peptide 80: SRALRN
+PDB saved: ../results/pdb_files/peptide_SRALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRALRN.pdbqt
 Processing peptide 324: SFHLQN
-PDBQT saved: ../results/peptide_structure/peptide_324.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHLQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLQN.pdbqt
 Processing peptide 325: SFHLGN
-PDBQT saved: ../results/peptide_structure/peptide_325.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHLGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLGN.pdbqt
 Processing peptide 326: SFHLHN
-PDBQT saved: ../results/peptide_structure/peptide_326.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLHN.pdbqt
 Processing peptide 327: SFHLKN
-PDBQT saved: ../results/peptide_structure/peptide_327.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLKN.pdbqt
 Processing peptide 328: SFHLSN
-PDBQT saved: ../results/peptide_structure/peptide_328.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHLSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLSN.pdbqt
 Processing peptide 329: SFHFRN
-PDBQT saved: ../results/peptide_structure/peptide_329.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHFRN.pdbqt
 Processing peptide 330: SFHPRN
-PDBQT saved: ../results/peptide_structure/peptide_330.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHPRN.pdbqt
 Processing peptide 331: SFHVRN
-PDBQT saved: ../results/peptide_structure/peptide_331.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFHVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHVRN.pdbqt
 Processing peptide 332: SFIARN
-PDBQT saved: ../results/peptide_structure/peptide_332.pdbqt
-Processing peptide 486: SFVNRN
-PDBQT saved: ../results/peptide_structure/peptide_486.pdbqt
-Processing peptide 487: SFVQRN
-PDBQT saved: ../results/peptide_structure/peptide_487.pdbqt
-Processing peptide 488: SFVGRN
-PDBQT saved: ../results/peptide_structure/peptide_488.pdbqt
-Processing peptide 489: SFVHRN
-PDBQT saved: ../results/peptide_structure/peptide_489.pdbqt
-Processing peptide 490: SFVKRN
-PDBQT saved: ../results/peptide_structure/peptide_490.pdbqt
-Processing peptide 491: SFVSRN
-PDBQT saved: ../results/peptide_structure/peptide_491.pdbqt
-Processing peptide 492: SPALRN
-PDBQT saved: ../results/peptide_structure/peptide_492.pdbqt
-Processing peptide 493: SPRLRN
-PDBQT saved: ../results/peptide_structure/peptide_493.pdbqt
-Processing peptide 494: SPNLRN
-PDBQT saved: ../results/peptide_structure/peptide_494.pdbqt
-Processing peptide 81: SRGLRN
-PDBQT saved: ../results/peptide_structure/peptide_81.pdbqt
-Processing peptide 82: SRILRN
-PDBQT saved: ../results/peptide_structure/peptide_82.pdbqt
-Processing peptide 83: SRLARN
-PDBQT saved: ../results/peptide_structure/peptide_83.pdbqt
-Processing peptide 84: SRLGRN
-PDBQT saved: ../results/peptide_structure/peptide_84.pdbqt
-Processing peptide 85: SRLIRN
-PDBQT saved: ../results/peptide_structure/peptide_85.pdbqt
-Processing peptide 86: SRLFRN
-PDBQT saved: ../results/peptide_structure/peptide_86.pdbqt
-Processing peptide 87: SRLPRN
-PDBQT saved: ../results/peptide_structure/peptide_87.pdbqt
-Processing peptide 88: SRLVRN
-PDBQT saved: ../results/peptide_structure/peptide_88.pdbqt
-Processing peptide 89: SRFLRN
-PDBQT saved: ../results/peptide_structure/peptide_89.pdbqt
-Processing peptide 234: SFRLRR
-PDBQT saved: ../results/peptide_structure/peptide_234.pdbqt
-Processing peptide 235: SFRLRN
-PDBQT saved: ../results/peptide_structure/peptide_235.pdbqt
-Processing peptide 236: SFRLRQ
-PDBQT saved: ../results/peptide_structure/peptide_236.pdbqt
-Processing peptide 237: SFRLRG
-PDBQT saved: ../results/peptide_structure/peptide_237.pdbqt
-Processing peptide 238: SFRLRH
-PDBQT saved: ../results/peptide_structure/peptide_238.pdbqt
-Processing peptide 239: SFRLRK
-PDBQT saved: ../results/peptide_structure/peptide_239.pdbqt
-Processing peptide 240: SFRLRS
-PDBQT saved: ../results/peptide_structure/peptide_240.pdbqt
-Processing peptide 241: SFRLNN
-PDBQT saved: ../results/peptide_structure/peptide_241.pdbqt
-Processing peptide 242: SFRLQN
-PDBQT saved: ../results/peptide_structure/peptide_242.pdbqt
-Processing peptide 504: SPLKRN
-PDBQT saved: ../results/peptide_structure/peptide_504.pdbqt
-Processing peptide 505: SPLSRN
-PDBQT saved: ../results/peptide_structure/peptide_505.pdbqt
-Processing peptide 506: SPKLRN
-PDBQT saved: ../results/peptide_structure/peptide_506.pdbqt
-Processing peptide 507: SPSLRN
-PDBQT saved: ../results/peptide_structure/peptide_507.pdbqt
-Processing peptide 508: STALRN
-PDBQT saved: ../results/peptide_structure/peptide_508.pdbqt
-Processing peptide 509: STGLRN
-PDBQT saved: ../results/peptide_structure/peptide_509.pdbqt
-Processing peptide 510: STLARN
-PDBQT saved: ../results/peptide_structure/peptide_510.pdbqt
-Processing peptide 511: STLGRN
-PDBQT saved: ../results/peptide_structure/peptide_511.pdbqt
-Processing peptide 512: SYALRN
-PDBQT saved: ../results/peptide_structure/peptide_512.pdbqt
-Processing peptide 135: SGLDRN
-PDBQT saved: ../results/peptide_structure/peptide_135.pdbqt
-Processing peptide 136: SGLERN
-PDBQT saved: ../results/peptide_structure/peptide_136.pdbqt
-Processing peptide 137: SGLQRN
-PDBQT saved: ../results/peptide_structure/peptide_137.pdbqt
-Processing peptide 138: SGLGRN
-PDBQT saved: ../results/peptide_structure/peptide_138.pdbqt
-Processing peptide 139: SGLHRN
-PDBQT saved: ../results/peptide_structure/peptide_139.pdbqt
-Processing peptide 140: SGLIRN
-PDBQT saved: ../results/peptide_structure/peptide_140.pdbqt
-Processing peptide 141: SGLKRN
-PDBQT saved: ../results/peptide_structure/peptide_141.pdbqt
-Processing peptide 142: SGLFRN
-PDBQT saved: ../results/peptide_structure/peptide_142.pdbqt
-Processing peptide 143: SGLPRN
-PDBQT saved: ../results/peptide_structure/peptide_143.pdbqt
-Processing peptide 180: SILSRN
-PDBQT saved: ../results/peptide_structure/peptide_180.pdbqt
-Processing peptide 181: SIKLRN
-PDBQT saved: ../results/peptide_structure/peptide_181.pdbqt
-Processing peptide 182: SISLRN
-PDBQT saved: ../results/peptide_structure/peptide_182.pdbqt
-Processing peptide 183: SLALRN
-PDBQT saved: ../results/peptide_structure/peptide_183.pdbqt
-Processing peptide 184: SLRLRN
-PDBQT saved: ../results/peptide_structure/peptide_184.pdbqt
-Processing peptide 185: SLNLRN
-PDBQT saved: ../results/peptide_structure/peptide_185.pdbqt
-Processing peptide 186: SLQLRN
-PDBQT saved: ../results/peptide_structure/peptide_186.pdbqt
-Processing peptide 187: SLGLRN
-PDBQT saved: ../results/peptide_structure/peptide_187.pdbqt
-Processing peptide 188: SLHLRN
-PDBQT saved: ../results/peptide_structure/peptide_188.pdbqt
-Processing peptide 279: SFQLRS
-PDBQT saved: ../results/peptide_structure/peptide_279.pdbqt
-Processing peptide 280: SFQLHN
-PDBQT saved: ../results/peptide_structure/peptide_280.pdbqt
-Processing peptide 281: SFQLKN
-PDBQT saved: ../results/peptide_structure/peptide_281.pdbqt
-Processing peptide 282: SFQFRN
-PDBQT saved: ../results/peptide_structure/peptide_282.pdbqt
-Processing peptide 283: SFQPRN
-PDBQT saved: ../results/peptide_structure/peptide_283.pdbqt
-Processing peptide 284: SFQVRN
-PDBQT saved: ../results/peptide_structure/peptide_284.pdbqt
-Processing peptide 285: SFGARN
-PDBQT saved: ../results/peptide_structure/peptide_285.pdbqt
-Processing peptide 286: SFGRRN
-PDBQT saved: ../results/peptide_structure/peptide_286.pdbqt
-Processing peptide 287: SFGNRN
-PDBQT saved: ../results/peptide_structure/peptide_287.pdbqt
-Processing peptide 360: SFLRQN
-PDBQT saved: ../results/peptide_structure/peptide_360.pdbqt
-Processing peptide 361: SFLRGN
-PDBQT saved: ../results/peptide_structure/peptide_361.pdbqt
-Processing peptide 362: SFLRHN
-PDBQT saved: ../results/peptide_structure/peptide_362.pdbqt
-Processing peptide 363: SFLRKN
-PDBQT saved: ../results/peptide_structure/peptide_363.pdbqt
-Processing peptide 364: SFLRSN
-PDBQT saved: ../results/peptide_structure/peptide_364.pdbqt
-Processing peptide 365: SFLNRA
-PDBQT saved: ../results/peptide_structure/peptide_365.pdbqt
-Processing peptide 366: SFLNRR
-PDBQT saved: ../results/peptide_structure/peptide_366.pdbqt
-Processing peptide 367: SFLNRN
-PDBQT saved: ../results/peptide_structure/peptide_367.pdbqt
-Processing peptide 368: SFLNRQ
-PDBQT saved: ../results/peptide_structure/peptide_368.pdbqt
-Processing peptide 495: SPQLRN
-PDBQT saved: ../results/peptide_structure/peptide_495.pdbqt
-Processing peptide 496: SPGLRN
-PDBQT saved: ../results/peptide_structure/peptide_496.pdbqt
-Processing peptide 497: SPHLRN
-PDBQT saved: ../results/peptide_structure/peptide_497.pdbqt
-Processing peptide 498: SPLARN
-PDBQT saved: ../results/peptide_structure/peptide_498.pdbqt
-Processing peptide 499: SPLRRN
-PDBQT saved: ../results/peptide_structure/peptide_499.pdbqt
-Processing peptide 500: SPLNRN
-PDBQT saved: ../results/peptide_structure/peptide_500.pdbqt
-Processing peptide 501: SPLQRN
-PDBQT saved: ../results/peptide_structure/peptide_501.pdbqt
-Processing peptide 502: SPLGRN
-PDBQT saved: ../results/peptide_structure/peptide_502.pdbqt
-Processing peptide 503: SPLHRN
-PDBQT saved: ../results/peptide_structure/peptide_503.pdbqt
-Processing peptide 99: SNLPRN
-PDBQT saved: ../results/peptide_structure/peptide_99.pdbqt
-Processing peptide 100: SNLVRN
-PDBQT saved: ../results/peptide_structure/peptide_100.pdbqt
-Processing peptide 101: SNFLRN
-PDBQT saved: ../results/peptide_structure/peptide_101.pdbqt
-Processing peptide 102: SNPLRN
-PDBQT saved: ../results/peptide_structure/peptide_102.pdbqt
-Processing peptide 103: SNVLRN
-PDBQT saved: ../results/peptide_structure/peptide_103.pdbqt
-Processing peptide 104: SDALRN
-PDBQT saved: ../results/peptide_structure/peptide_104.pdbqt
-Processing peptide 105: SDLARN
-PDBQT saved: ../results/peptide_structure/peptide_105.pdbqt
-Processing peptide 106: SDLGRN
-PDBQT saved: ../results/peptide_structure/peptide_106.pdbqt
-Processing peptide 107: SEALRN
-PDBQT saved: ../results/peptide_structure/peptide_107.pdbqt
-Processing peptide 261: SFNLHN
-PDBQT saved: ../results/peptide_structure/peptide_261.pdbqt
-Processing peptide 262: SFNLKN
-PDBQT saved: ../results/peptide_structure/peptide_262.pdbqt
-Processing peptide 263: SFNFRN
-PDBQT saved: ../results/peptide_structure/peptide_263.pdbqt
-Processing peptide 264: SFNPRN
-PDBQT saved: ../results/peptide_structure/peptide_264.pdbqt
-Processing peptide 265: SFNVRN
-PDBQT saved: ../results/peptide_structure/peptide_265.pdbqt
-Processing peptide 266: SFDARN
-PDBQT saved: ../results/peptide_structure/peptide_266.pdbqt
-Processing peptide 267: SFEARN
-PDBQT saved: ../results/peptide_structure/peptide_267.pdbqt
-Processing peptide 268: SFEGRN
-PDBQT saved: ../results/peptide_structure/peptide_268.pdbqt
-Processing peptide 269: SFQARN
-PDBQT saved: ../results/peptide_structure/peptide_269.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFIARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIARN.pdbqt
+Processing peptide 477: SFSFRN
+PDB saved: ../results/pdb_files/peptide_SFSFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSFRN.pdbqt
+Processing peptide 478: SFSPRN
+PDB saved: ../results/pdb_files/peptide_SFSPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSPRN.pdbqt
+Processing peptide 479: SFSVRN
+PDB saved: ../results/pdb_files/peptide_SFSVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSVRN.pdbqt
+Processing peptide 480: SFTARN
+PDB saved: ../results/pdb_files/peptide_SFTARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFTARN.pdbqt
+Processing peptide 481: SFTGRN
+PDB saved: ../results/pdb_files/peptide_SFTGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFTGRN.pdbqt
+Processing peptide 482: SFYARN
+PDB saved: ../results/pdb_files/peptide_SFYARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFYARN.pdbqt
+Processing peptide 483: SFYGRN
+PDB saved: ../results/pdb_files/peptide_SFYGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFYGRN.pdbqt
+Processing peptide 484: SFVARN
+PDB saved: ../results/pdb_files/peptide_SFVARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVARN.pdbqt
+Processing peptide 485: SFVRRN
+PDB saved: ../results/pdb_files/peptide_SFVRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVRRN.pdbqt
+Processing peptide 18: GFNLRN
+PDB saved: ../results/pdb_files/peptide_GFNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFNLRN.pdbqt
+Processing peptide 19: GFQLRN
+PDB saved: ../results/pdb_files/peptide_GFQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFQLRN.pdbqt
+Processing peptide 20: GFGLRN
+PDB saved: ../results/pdb_files/peptide_GFGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFGLRN.pdbqt
+Processing peptide 21: GFHLRN
+PDB saved: ../results/pdb_files/peptide_GFHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFHLRN.pdbqt
+Processing peptide 22: GFLARN
+PDB saved: ../results/pdb_files/peptide_GFLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLARN.pdbqt
+Processing peptide 23: GFLRRN
+PDB saved: ../results/pdb_files/peptide_GFLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLRRN.pdbqt
+Processing peptide 24: GFLNRN
+PDB saved: ../results/pdb_files/peptide_GFLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLNRN.pdbqt
+Processing peptide 25: GFLQRN
+PDB saved: ../results/pdb_files/peptide_GFLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLQRN.pdbqt
+Processing peptide 26: GFLGRN
+PDB saved: ../results/pdb_files/peptide_GFLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFLGRN.pdbqt
+Processing peptide 198: SKLPRN
+PDB saved: ../results/pdb_files/peptide_SKLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLPRN.pdbqt
+Processing peptide 199: SKLVRN
+PDB saved: ../results/pdb_files/peptide_SKLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKLVRN.pdbqt
+Processing peptide 200: SKFLRN
+PDB saved: ../results/pdb_files/peptide_SKFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKFLRN.pdbqt
+Processing peptide 201: SKPLRN
+PDB saved: ../results/pdb_files/peptide_SKPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKPLRN.pdbqt
+Processing peptide 202: SKVLRN
+PDB saved: ../results/pdb_files/peptide_SKVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SKVLRN.pdbqt
+Processing peptide 203: SFAARN
+PDB saved: ../results/pdb_files/peptide_SFAARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAARN.pdbqt
+Processing peptide 204: SFARRN
+PDB saved: ../results/pdb_files/peptide_SFARRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFARRN.pdbqt
+Processing peptide 205: SFANRN
+PDB saved: ../results/pdb_files/peptide_SFANRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFANRN.pdbqt
+Processing peptide 206: SFADRN
+PDB saved: ../results/pdb_files/peptide_SFADRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFADRN.pdbqt
+Processing peptide 333: SFIRRN
+PDB saved: ../results/pdb_files/peptide_SFIRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIRRN.pdbqt
+Processing peptide 334: SFINRN
+PDB saved: ../results/pdb_files/peptide_SFINRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFINRN.pdbqt
+Processing peptide 335: SFIQRN
+PDB saved: ../results/pdb_files/peptide_SFIQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIQRN.pdbqt
+Processing peptide 336: SFIGRN
+PDB saved: ../results/pdb_files/peptide_SFIGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIGRN.pdbqt
+Processing peptide 337: SFIHRN
+PDB saved: ../results/pdb_files/peptide_SFIHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIHRN.pdbqt
+Processing peptide 338: SFIKRN
+PDB saved: ../results/pdb_files/peptide_SFIKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFIKRN.pdbqt
+Processing peptide 339: SFISRN
+PDB saved: ../results/pdb_files/peptide_SFISRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFISRN.pdbqt
+Processing peptide 340: SFLARA
+PDB saved: ../results/pdb_files/peptide_SFLARA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARA.pdbqt
+Processing peptide 341: SFLARR
+PDB saved: ../results/pdb_files/peptide_SFLARR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARR.pdbqt
+Processing peptide 432: SFLSRS
+PDB saved: ../results/pdb_files/peptide_SFLSRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRS.pdbqt
+Processing peptide 433: SFLSHN
+PDB saved: ../results/pdb_files/peptide_SFLSHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSHN.pdbqt
+Processing peptide 434: SFLSKN
+PDB saved: ../results/pdb_files/peptide_SFLSKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSKN.pdbqt
+Processing peptide 435: SFKARN
+PDB saved: ../results/pdb_files/peptide_SFKARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKARN.pdbqt
+Processing peptide 436: SFKGRN
+PDB saved: ../results/pdb_files/peptide_SFKGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKGRN.pdbqt
+Processing peptide 437: SFKIRN
+PDB saved: ../results/pdb_files/peptide_SFKIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKIRN.pdbqt
+Processing peptide 438: SFKLAN
+PDB saved: ../results/pdb_files/peptide_SFKLAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLAN.pdbqt
+Processing peptide 439: SFKLRA
+PDB saved: ../results/pdb_files/peptide_SFKLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRA.pdbqt
+Processing peptide 440: SFKLRR
+PDB saved: ../results/pdb_files/peptide_SFKLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLRR.pdbqt
+Processing peptide 54: SAGLRN
+PDB saved: ../results/pdb_files/peptide_SAGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAGLRN.pdbqt
+Processing peptide 55: SAHLRN
+PDB saved: ../results/pdb_files/peptide_SAHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAHLRN.pdbqt
+Processing peptide 56: SAILRN
+PDB saved: ../results/pdb_files/peptide_SAILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAILRN.pdbqt
+Processing peptide 57: SALARN
+PDB saved: ../results/pdb_files/peptide_SALARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALARN.pdbqt
+Processing peptide 58: SALRRN
+PDB saved: ../results/pdb_files/peptide_SALRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALRRN.pdbqt
+Processing peptide 59: SALNRN
+PDB saved: ../results/pdb_files/peptide_SALNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALNRN.pdbqt
+Processing peptide 60: SALDRN
+PDB saved: ../results/pdb_files/peptide_SALDRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALDRN.pdbqt
+Processing peptide 61: SALERN
+PDB saved: ../results/pdb_files/peptide_SALERN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALERN.pdbqt
+Processing peptide 62: SALQRN
+PDB saved: ../results/pdb_files/peptide_SALQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALQRN.pdbqt
+Processing peptide 207: SFAERN
+PDB saved: ../results/pdb_files/peptide_SFAERN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAERN.pdbqt
+Processing peptide 208: SFAQRN
+PDB saved: ../results/pdb_files/peptide_SFAQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAQRN.pdbqt
+Processing peptide 209: SFAGRN
+PDB saved: ../results/pdb_files/peptide_SFAGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAGRN.pdbqt
+Processing peptide 210: SFAHRN
+PDB saved: ../results/pdb_files/peptide_SFAHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAHRN.pdbqt
+Processing peptide 211: SFAIRN
+PDB saved: ../results/pdb_files/peptide_SFAIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAIRN.pdbqt
+Processing peptide 212: SFALRA
+PDB saved: ../results/pdb_files/peptide_SFALRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRA.pdbqt
+Processing peptide 213: SFALRR
+PDB saved: ../results/pdb_files/peptide_SFALRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRR.pdbqt
+Processing peptide 214: SFALRN
+PDB saved: ../results/pdb_files/peptide_SFALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRN.pdbqt
+Processing peptide 215: SFALRQ
+PDB saved: ../results/pdb_files/peptide_SFALRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRQ.pdbqt
 Processing peptide 369: SFLNRG
-PDBQT saved: ../results/peptide_structure/peptide_369.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRG.pdbqt
 Processing peptide 370: SFLNRH
-PDBQT saved: ../results/peptide_structure/peptide_370.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRH.pdbqt
 Processing peptide 371: SFLNRK
-PDBQT saved: ../results/peptide_structure/peptide_371.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRK.pdbqt
 Processing peptide 372: SFLNRS
-PDBQT saved: ../results/peptide_structure/peptide_372.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRS.pdbqt
 Processing peptide 373: SFLNHN
-PDBQT saved: ../results/peptide_structure/peptide_373.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNHN.pdbqt
 Processing peptide 374: SFLNKN
-PDBQT saved: ../results/peptide_structure/peptide_374.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLNKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNKN.pdbqt
 Processing peptide 375: SFLQRA
-PDBQT saved: ../results/peptide_structure/peptide_375.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLQRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRA.pdbqt
 Processing peptide 376: SFLQRR
-PDBQT saved: ../results/peptide_structure/peptide_376.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFLQRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRR.pdbqt
 Processing peptide 377: SFLQRN
-PDBQT saved: ../results/peptide_structure/peptide_377.pdbqt
-Processing peptide 522: SVLARN
-PDBQT saved: ../results/peptide_structure/peptide_522.pdbqt
-Processing peptide 523: SVLRRN
+PDB saved: ../results/pdb_files/peptide_SFLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRN.pdbqt
+Processing peptide 81: SRGLRN
+PDB saved: ../results/pdb_files/peptide_SRGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRGLRN.pdbqt
+Processing peptide 82: SRILRN
+PDB saved: ../results/pdb_files/peptide_SRILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRILRN.pdbqt
+Processing peptide 83: SRLARN
+PDB saved: ../results/pdb_files/peptide_SRLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLARN.pdbqt
+Processing peptide 84: SRLGRN
+PDB saved: ../results/pdb_files/peptide_SRLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLGRN.pdbqt
+Processing peptide 85: SRLIRN
+PDB saved: ../results/pdb_files/peptide_SRLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLIRN.pdbqt
+Processing peptide 86: SRLFRN
+PDB saved: ../results/pdb_files/peptide_SRLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLFRN.pdbqt
+Processing peptide 87: SRLPRN
+PDB saved: ../results/pdb_files/peptide_SRLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLPRN.pdbqt
+Processing peptide 88: SRLVRN
+PDB saved: ../results/pdb_files/peptide_SRLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRLVRN.pdbqt
+Processing peptide 89: SRFLRN
+PDB saved: ../results/pdb_files/peptide_SRFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRFLRN.pdbqt
+Processing peptide 279: SFQLRS
+PDB saved: ../results/pdb_files/peptide_SFQLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRS.pdbqt
+Processing peptide 280: SFQLHN
+PDB saved: ../results/pdb_files/peptide_SFQLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLHN.pdbqt
+Processing peptide 281: SFQLKN
+PDB saved: ../results/pdb_files/peptide_SFQLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLKN.pdbqt
+Processing peptide 282: SFQFRN
+PDB saved: ../results/pdb_files/peptide_SFQFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQFRN.pdbqt
+Processing peptide 283: SFQPRN
+PDB saved: ../results/pdb_files/peptide_SFQPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQPRN.pdbqt
+Processing peptide 284: SFQVRN
+PDB saved: ../results/pdb_files/peptide_SFQVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQVRN.pdbqt
+Processing peptide 285: SFGARN
+PDB saved: ../results/pdb_files/peptide_SFGARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGARN.pdbqt
+Processing peptide 286: SFGRRN
+PDB saved: ../results/pdb_files/peptide_SFGRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGRRN.pdbqt
+Processing peptide 287: SFGNRN
+PDB saved: ../results/pdb_files/peptide_SFGNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGNRN.pdbqt
+Processing peptide 459: SFPQRN
+PDB saved: ../results/pdb_files/peptide_SFPQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPQRN.pdbqt
+Processing peptide 460: SFPGRN
+PDB saved: ../results/pdb_files/peptide_SFPGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPGRN.pdbqt
+Processing peptide 461: SFPHRN
+PDB saved: ../results/pdb_files/peptide_SFPHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPHRN.pdbqt
+Processing peptide 462: SFPKRN
+PDB saved: ../results/pdb_files/peptide_SFPKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPKRN.pdbqt
+Processing peptide 463: SFPSRN
+PDB saved: ../results/pdb_files/peptide_SFPSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPSRN.pdbqt
+Processing peptide 464: SFSARN
+PDB saved: ../results/pdb_files/peptide_SFSARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSARN.pdbqt
+Processing peptide 465: SFSGRN
+PDB saved: ../results/pdb_files/peptide_SFSGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSGRN.pdbqt
+Processing peptide 466: SFSIRN
+PDB saved: ../results/pdb_files/peptide_SFSIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSIRN.pdbqt
+Processing peptide 467: SFSLRA
+PDB saved: ../results/pdb_files/peptide_SFSLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRA.pdbqt
+Processing peptide 135: SGLDRN
+PDB saved: ../results/pdb_files/peptide_SGLDRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLDRN.pdbqt
+Processing peptide 136: SGLERN
+PDB saved: ../results/pdb_files/peptide_SGLERN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLERN.pdbqt
+Processing peptide 137: SGLQRN
+PDB saved: ../results/pdb_files/peptide_SGLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLQRN.pdbqt
+Processing peptide 138: SGLGRN
+PDB saved: ../results/pdb_files/peptide_SGLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLGRN.pdbqt
+Processing peptide 139: SGLHRN
+PDB saved: ../results/pdb_files/peptide_SGLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLHRN.pdbqt
+Processing peptide 140: SGLIRN
+PDB saved: ../results/pdb_files/peptide_SGLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLIRN.pdbqt
+Processing peptide 141: SGLKRN
+PDB saved: ../results/pdb_files/peptide_SGLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLKRN.pdbqt
+Processing peptide 142: SGLFRN
+PDB saved: ../results/pdb_files/peptide_SGLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLFRN.pdbqt
+Processing peptide 143: SGLPRN
+PDB saved: ../results/pdb_files/peptide_SGLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLPRN.pdbqt
+Processing peptide 162: SHLPRN
+PDB saved: ../results/pdb_files/peptide_SHLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLPRN.pdbqt
+Processing peptide 163: SHLVRN
+PDB saved: ../results/pdb_files/peptide_SHLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLVRN.pdbqt
+Processing peptide 164: SHFLRN
+PDB saved: ../results/pdb_files/peptide_SHFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHFLRN.pdbqt
+Processing peptide 165: SHPLRN
+PDB saved: ../results/pdb_files/peptide_SHPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHPLRN.pdbqt
+Processing peptide 166: SHVLRN
+PDB saved: ../results/pdb_files/peptide_SHVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHVLRN.pdbqt
+Processing peptide 167: SIALRN
+PDB saved: ../results/pdb_files/peptide_SIALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIALRN.pdbqt
+Processing peptide 168: SIRLRN
+PDB saved: ../results/pdb_files/peptide_SIRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIRLRN.pdbqt
+Processing peptide 169: SINLRN
+PDB saved: ../results/pdb_files/peptide_SINLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SINLRN.pdbqt
+Processing peptide 170: SIQLRN
+PDB saved: ../results/pdb_files/peptide_SIQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIQLRN.pdbqt
+Processing peptide 306: SFGPRN
+PDB saved: ../results/pdb_files/peptide_SFGPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGPRN.pdbqt
+Processing peptide 307: SFGSRN
+PDB saved: ../results/pdb_files/peptide_SFGSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGSRN.pdbqt
+Processing peptide 308: SFGTRN
+PDB saved: ../results/pdb_files/peptide_SFGTRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGTRN.pdbqt
+Processing peptide 309: SFGYRN
+PDB saved: ../results/pdb_files/peptide_SFGYRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGYRN.pdbqt
+Processing peptide 310: SFGVRN
+PDB saved: ../results/pdb_files/peptide_SFGVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGVRN.pdbqt
+Processing peptide 311: SFHARN
+PDB saved: ../results/pdb_files/peptide_SFHARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHARN.pdbqt
+Processing peptide 312: SFHGRN
+PDB saved: ../results/pdb_files/peptide_SFHGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHGRN.pdbqt
+Processing peptide 313: SFHIRN
+PDB saved: ../results/pdb_files/peptide_SFHIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHIRN.pdbqt
+Processing peptide 314: SFHLAN
+PDB saved: ../results/pdb_files/peptide_SFHLAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFHLAN.pdbqt
+Processing peptide 342: SFLARN
+PDB saved: ../results/pdb_files/peptide_SFLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARN.pdbqt
+Processing peptide 343: SFLARQ
+PDB saved: ../results/pdb_files/peptide_SFLARQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARQ.pdbqt
+Processing peptide 344: SFLARG
+PDB saved: ../results/pdb_files/peptide_SFLARG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARG.pdbqt
+Processing peptide 345: SFLARH
+PDB saved: ../results/pdb_files/peptide_SFLARH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARH.pdbqt
+Processing peptide 346: SFLARK
+PDB saved: ../results/pdb_files/peptide_SFLARK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARK.pdbqt
+Processing peptide 347: SFLARS
+PDB saved: ../results/pdb_files/peptide_SFLARS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLARS.pdbqt
+Processing peptide 348: SFLAHN
+PDB saved: ../results/pdb_files/peptide_SFLAHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLAHN.pdbqt
+Processing peptide 349: SFLAKN
+PDB saved: ../results/pdb_files/peptide_SFLAKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLAKN.pdbqt
+Processing peptide 350: SFLRAN
+PDB saved: ../results/pdb_files/peptide_SFLRAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRAN.pdbqt
+Processing peptide 486: SFVNRN
+PDB saved: ../results/pdb_files/peptide_SFVNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVNRN.pdbqt
+Processing peptide 487: SFVQRN
+PDB saved: ../results/pdb_files/peptide_SFVQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVQRN.pdbqt
+Processing peptide 488: SFVGRN
+PDB saved: ../results/pdb_files/peptide_SFVGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVGRN.pdbqt
+Processing peptide 489: SFVHRN
+PDB saved: ../results/pdb_files/peptide_SFVHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVHRN.pdbqt
+Processing peptide 490: SFVKRN
+PDB saved: ../results/pdb_files/peptide_SFVKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVKRN.pdbqt
+Processing peptide 491: SFVSRN
+PDB saved: ../results/pdb_files/peptide_SFVSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFVSRN.pdbqt
+Processing peptide 492: SPALRN
+PDB saved: ../results/pdb_files/peptide_SPALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPALRN.pdbqt
+Processing peptide 493: SPRLRN
+PDB saved: ../results/pdb_files/peptide_SPRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPRLRN.pdbqt
+Processing peptide 494: SPNLRN
+PDB saved: ../results/pdb_files/peptide_SPNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPNLRN.pdbqt
+Processing peptide 99: SNLPRN
+PDB saved: ../results/pdb_files/peptide_SNLPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLPRN.pdbqt
+Processing peptide 100: SNLVRN
+PDB saved: ../results/pdb_files/peptide_SNLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLVRN.pdbqt
+Processing peptide 101: SNFLRN
+PDB saved: ../results/pdb_files/peptide_SNFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNFLRN.pdbqt
+Processing peptide 102: SNPLRN
+PDB saved: ../results/pdb_files/peptide_SNPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNPLRN.pdbqt
+Processing peptide 103: SNVLRN
+PDB saved: ../results/pdb_files/peptide_SNVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNVLRN.pdbqt
+Processing peptide 104: SDALRN
+PDB saved: ../results/pdb_files/peptide_SDALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SDALRN.pdbqt
+Processing peptide 105: SDLARN
+PDB saved: ../results/pdb_files/peptide_SDLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SDLARN.pdbqt
+Processing peptide 106: SDLGRN
+PDB saved: ../results/pdb_files/peptide_SDLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SDLGRN.pdbqt
+Processing peptide 107: SEALRN
+PDB saved: ../results/pdb_files/peptide_SEALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SEALRN.pdbqt
+Processing peptide 225: SFASRN
+PDB saved: ../results/pdb_files/peptide_SFASRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFASRN.pdbqt
+Processing peptide 226: SFATRN
+PDB saved: ../results/pdb_files/peptide_SFATRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFATRN.pdbqt
+Processing peptide 227: SFAYRN
+PDB saved: ../results/pdb_files/peptide_SFAYRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAYRN.pdbqt
+Processing peptide 228: SFAVRN
+PDB saved: ../results/pdb_files/peptide_SFAVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAVRN.pdbqt
+Processing peptide 229: SFRARN
+PDB saved: ../results/pdb_files/peptide_SFRARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRARN.pdbqt
+Processing peptide 230: SFRGRN
+PDB saved: ../results/pdb_files/peptide_SFRGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRGRN.pdbqt
+Processing peptide 231: SFRIRN
 Failed to embed the 3D structure.
-Failed to generate 3D structure for peptide 523
-Processing peptide 524: SVLNRN
-PDBQT saved: ../results/peptide_structure/peptide_524.pdbqt
-Processing peptide 525: SVLQRN
-PDBQT saved: ../results/peptide_structure/peptide_525.pdbqt
-Processing peptide 526: SVLGRN
-PDBQT saved: ../results/peptide_structure/peptide_526.pdbqt
-Processing peptide 527: SVLHRN
-PDBQT saved: ../results/peptide_structure/peptide_527.pdbqt
-Processing peptide 528: SVLKRN
-PDBQT saved: ../results/peptide_structure/peptide_528.pdbqt
-Processing peptide 529: SVLSRN
-PDBQT saved: ../results/peptide_structure/peptide_529.pdbqt
-Processing peptide 530: SVKLRN
-PDBQT saved: ../results/peptide_structure/peptide_530.pdbqt
-Processing peptide 108: SEGLRN
-PDBQT saved: ../results/peptide_structure/peptide_108.pdbqt
-Processing peptide 109: SELARN
-PDBQT saved: ../results/peptide_structure/peptide_109.pdbqt
-Processing peptide 110: SELGRN
-PDBQT saved: ../results/peptide_structure/peptide_110.pdbqt
-Processing peptide 111: SQALRN
-PDBQT saved: ../results/peptide_structure/peptide_111.pdbqt
-Processing peptide 112: SQGLRN
-PDBQT saved: ../results/peptide_structure/peptide_112.pdbqt
-Processing peptide 113: SQILRN
-PDBQT saved: ../results/peptide_structure/peptide_113.pdbqt
-Processing peptide 114: SQLARN
-PDBQT saved: ../results/peptide_structure/peptide_114.pdbqt
-Processing peptide 115: SQLGRN
-PDBQT saved: ../results/peptide_structure/peptide_115.pdbqt
-Processing peptide 116: SQLIRN
-PDBQT saved: ../results/peptide_structure/peptide_116.pdbqt
-Processing peptide 270: SFQGRN
-PDBQT saved: ../results/peptide_structure/peptide_270.pdbqt
-Processing peptide 271: SFQIRN
-PDBQT saved: ../results/peptide_structure/peptide_271.pdbqt
-Processing peptide 272: SFQLRA
-PDBQT saved: ../results/peptide_structure/peptide_272.pdbqt
-Processing peptide 273: SFQLRR
-PDBQT saved: ../results/peptide_structure/peptide_273.pdbqt
-Processing peptide 274: SFQLRN
-PDBQT saved: ../results/peptide_structure/peptide_274.pdbqt
-Processing peptide 275: SFQLRQ
-PDBQT saved: ../results/peptide_structure/peptide_275.pdbqt
-Processing peptide 276: SFQLRG
-PDBQT saved: ../results/peptide_structure/peptide_276.pdbqt
-Processing peptide 277: SFQLRH
-PDBQT saved: ../results/peptide_structure/peptide_277.pdbqt
-Processing peptide 278: SFQLRK
-PDBQT saved: ../results/peptide_structure/peptide_278.pdbqt
+Failed to generate 3D structure for peptide 231: SFRIRN
+Processing peptide 232: SFRLAN
+PDB saved: ../results/pdb_files/peptide_SFRLAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLAN.pdbqt
+Processing peptide 233: SFRLRA
+PDB saved: ../results/pdb_files/peptide_SFRLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRA.pdbqt
+Processing peptide 378: SFLQRQ
+PDB saved: ../results/pdb_files/peptide_SFLQRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRQ.pdbqt
+Processing peptide 379: SFLQRG
+PDB saved: ../results/pdb_files/peptide_SFLQRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRG.pdbqt
+Processing peptide 380: SFLQRH
+PDB saved: ../results/pdb_files/peptide_SFLQRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRH.pdbqt
+Processing peptide 381: SFLQRK
+PDB saved: ../results/pdb_files/peptide_SFLQRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRK.pdbqt
+Processing peptide 382: SFLQRS
+PDB saved: ../results/pdb_files/peptide_SFLQRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQRS.pdbqt
+Processing peptide 383: SFLQHN
+PDB saved: ../results/pdb_files/peptide_SFLQHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQHN.pdbqt
+Processing peptide 384: SFLQKN
+PDB saved: ../results/pdb_files/peptide_SFLQKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLQKN.pdbqt
+Processing peptide 385: SFLGRA
+PDB saved: ../results/pdb_files/peptide_SFLGRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRA.pdbqt
+Processing peptide 386: SFLGRR
+PDB saved: ../results/pdb_files/peptide_SFLGRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRR.pdbqt
+Processing peptide 126: SGDLRN
+PDB saved: ../results/pdb_files/peptide_SGDLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGDLRN.pdbqt
+Processing peptide 127: SGELRN
+PDB saved: ../results/pdb_files/peptide_SGELRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGELRN.pdbqt
+Processing peptide 128: SGQLRN
+PDB saved: ../results/pdb_files/peptide_SGQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGQLRN.pdbqt
+Processing peptide 129: SGGLRN
+PDB saved: ../results/pdb_files/peptide_SGGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGGLRN.pdbqt
+Processing peptide 130: SGHLRN
+PDB saved: ../results/pdb_files/peptide_SGHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGHLRN.pdbqt
+Processing peptide 131: SGILRN
+PDB saved: ../results/pdb_files/peptide_SGILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGILRN.pdbqt
+Processing peptide 132: SGLARN
+PDB saved: ../results/pdb_files/peptide_SGLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLARN.pdbqt
+Processing peptide 133: SGLRRN
+PDB saved: ../results/pdb_files/peptide_SGLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLRRN.pdbqt
+Processing peptide 134: SGLNRN
+PDB saved: ../results/pdb_files/peptide_SGLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLNRN.pdbqt
+Processing peptide 144: SGLSRN
+PDB saved: ../results/pdb_files/peptide_SGLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLSRN.pdbqt
+Processing peptide 145: SGLTRN
+PDB saved: ../results/pdb_files/peptide_SGLTRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLTRN.pdbqt
+Processing peptide 146: SGLYRN
+PDB saved: ../results/pdb_files/peptide_SGLYRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLYRN.pdbqt
+Processing peptide 147: SGLVRN
+PDB saved: ../results/pdb_files/peptide_SGLVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGLVRN.pdbqt
+Processing peptide 148: SGKLRN
+PDB saved: ../results/pdb_files/peptide_SGKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGKLRN.pdbqt
+Processing peptide 149: SGFLRN
+PDB saved: ../results/pdb_files/peptide_SGFLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGFLRN.pdbqt
+Processing peptide 150: SGPLRN
+PDB saved: ../results/pdb_files/peptide_SGPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGPLRN.pdbqt
+Processing peptide 151: SGSLRN
+PDB saved: ../results/pdb_files/peptide_SGSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGSLRN.pdbqt
+Processing peptide 152: SGTLRN
+PDB saved: ../results/pdb_files/peptide_SGTLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGTLRN.pdbqt
+Processing peptide 288: SFGDRN
+PDB saved: ../results/pdb_files/peptide_SFGDRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGDRN.pdbqt
+Processing peptide 289: SFGERN
+PDB saved: ../results/pdb_files/peptide_SFGERN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGERN.pdbqt
+Processing peptide 290: SFGQRN
+PDB saved: ../results/pdb_files/peptide_SFGQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGQRN.pdbqt
+Processing peptide 291: SFGGRN
+PDB saved: ../results/pdb_files/peptide_SFGGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGGRN.pdbqt
+Processing peptide 292: SFGHRN
+PDB saved: ../results/pdb_files/peptide_SFGHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGHRN.pdbqt
+Processing peptide 293: SFGIRN
+PDB saved: ../results/pdb_files/peptide_SFGIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGIRN.pdbqt
+Processing peptide 294: SFGLRA
+PDB saved: ../results/pdb_files/peptide_SFGLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRA.pdbqt
+Processing peptide 295: SFGLRR
+PDB saved: ../results/pdb_files/peptide_SFGLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRR.pdbqt
+Processing peptide 296: SFGLRN
+PDB saved: ../results/pdb_files/peptide_SFGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRN.pdbqt
+Processing peptide 423: SFLKKN
+PDB saved: ../results/pdb_files/peptide_SFLKKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKKN.pdbqt
+Processing peptide 424: SFLKSN
+PDB saved: ../results/pdb_files/peptide_SFLKSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKSN.pdbqt
+Processing peptide 425: SFLSRA
+PDB saved: ../results/pdb_files/peptide_SFLSRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRA.pdbqt
+Processing peptide 426: SFLSRR
+PDB saved: ../results/pdb_files/peptide_SFLSRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRR.pdbqt
+Processing peptide 427: SFLSRN
+PDB saved: ../results/pdb_files/peptide_SFLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRN.pdbqt
+Processing peptide 428: SFLSRQ
+PDB saved: ../results/pdb_files/peptide_SFLSRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRQ.pdbqt
+Processing peptide 429: SFLSRG
+PDB saved: ../results/pdb_files/peptide_SFLSRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRG.pdbqt
+Processing peptide 430: SFLSRH
+PDB saved: ../results/pdb_files/peptide_SFLSRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRH.pdbqt
+Processing peptide 431: SFLSRK
+PDB saved: ../results/pdb_files/peptide_SFLSRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLSRK.pdbqt
+Processing peptide 513: SYGLRN
+PDB saved: ../results/pdb_files/peptide_SYGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SYGLRN.pdbqt
+Processing peptide 514: SYLARN
+PDB saved: ../results/pdb_files/peptide_SYLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SYLARN.pdbqt
+Processing peptide 515: SYLGRN
+PDB saved: ../results/pdb_files/peptide_SYLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SYLGRN.pdbqt
+Processing peptide 516: SVALRN
+PDB saved: ../results/pdb_files/peptide_SVALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVALRN.pdbqt
+Processing peptide 517: SVRLRN
+PDB saved: ../results/pdb_files/peptide_SVRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVRLRN.pdbqt
+Processing peptide 518: SVNLRN
+PDB saved: ../results/pdb_files/peptide_SVNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVNLRN.pdbqt
+Processing peptide 519: SVQLRN
+PDB saved: ../results/pdb_files/peptide_SVQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVQLRN.pdbqt
+Processing peptide 520: SVGLRN
+PDB saved: ../results/pdb_files/peptide_SVGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVGLRN.pdbqt
+Processing peptide 521: SVHLRN
+PDB saved: ../results/pdb_files/peptide_SVHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVHLRN.pdbqt
+Processing peptide 45: HFLSRN
+PDB saved: ../results/pdb_files/peptide_HFLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLSRN.pdbqt
+Processing peptide 46: HFKLRN
+PDB saved: ../results/pdb_files/peptide_HFKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFKLRN.pdbqt
+Processing peptide 47: HFSLRN
+PDB saved: ../results/pdb_files/peptide_HFSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFSLRN.pdbqt
+Processing peptide 48: SAALRN
+PDB saved: ../results/pdb_files/peptide_SAALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAALRN.pdbqt
+Processing peptide 49: SARLRN
+PDB saved: ../results/pdb_files/peptide_SARLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SARLRN.pdbqt
+Processing peptide 50: SANLRN
+PDB saved: ../results/pdb_files/peptide_SANLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SANLRN.pdbqt
+Processing peptide 51: SADLRN
+PDB saved: ../results/pdb_files/peptide_SADLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SADLRN.pdbqt
+Processing peptide 52: SAELRN
+PDB saved: ../results/pdb_files/peptide_SAELRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAELRN.pdbqt
+Processing peptide 53: SAQLRN
+PDB saved: ../results/pdb_files/peptide_SAQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SAQLRN.pdbqt
+Processing peptide 252: SFNIRN
+PDB saved: ../results/pdb_files/peptide_SFNIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNIRN.pdbqt
+Processing peptide 253: SFNLRA
+PDB saved: ../results/pdb_files/peptide_SFNLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRA.pdbqt
+Processing peptide 254: SFNLRR
+PDB saved: ../results/pdb_files/peptide_SFNLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRR.pdbqt
+Processing peptide 255: SFNLRN
+PDB saved: ../results/pdb_files/peptide_SFNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRN.pdbqt
+Processing peptide 256: SFNLRQ
+PDB saved: ../results/pdb_files/peptide_SFNLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRQ.pdbqt
+Processing peptide 257: SFNLRG
+PDB saved: ../results/pdb_files/peptide_SFNLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRG.pdbqt
+Processing peptide 258: SFNLRH
+PDB saved: ../results/pdb_files/peptide_SFNLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRH.pdbqt
+Processing peptide 259: SFNLRK
+PDB saved: ../results/pdb_files/peptide_SFNLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRK.pdbqt
+Processing peptide 260: SFNLRS
+PDB saved: ../results/pdb_files/peptide_SFNLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLRS.pdbqt
 Processing peptide 450: SFKLHN
-PDBQT saved: ../results/peptide_structure/peptide_450.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLHN.pdbqt
 Processing peptide 451: SFKLKN
-PDBQT saved: ../results/peptide_structure/peptide_451.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLKN.pdbqt
 Processing peptide 452: SFKLSN
-PDBQT saved: ../results/peptide_structure/peptide_452.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKLSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKLSN.pdbqt
 Processing peptide 453: SFKFRN
-PDBQT saved: ../results/peptide_structure/peptide_453.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKFRN.pdbqt
 Processing peptide 454: SFKPRN
-PDBQT saved: ../results/peptide_structure/peptide_454.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKPRN.pdbqt
 Processing peptide 455: SFKVRN
-PDBQT saved: ../results/peptide_structure/peptide_455.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFKVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFKVRN.pdbqt
 Processing peptide 456: SFPARN
-PDBQT saved: ../results/peptide_structure/peptide_456.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFPARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPARN.pdbqt
 Processing peptide 457: SFPRRN
-PDBQT saved: ../results/peptide_structure/peptide_457.pdbqt
+PDB saved: ../results/pdb_files/peptide_SFPRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPRRN.pdbqt
 Processing peptide 458: SFPNRN
-PDBQT saved: ../results/peptide_structure/peptide_458.pdbqt
-Processed 530 out of 532           peptides.
-Results saved in ../results/peptide_structure/.
+PDB saved: ../results/pdb_files/peptide_SFPNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFPNRN.pdbqt
+Processing peptide 36: HFGLRN
+PDB saved: ../results/pdb_files/peptide_HFGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFGLRN.pdbqt
+Processing peptide 37: HFHLRN
+PDB saved: ../results/pdb_files/peptide_HFHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFHLRN.pdbqt
+Processing peptide 38: HFLARN
+PDB saved: ../results/pdb_files/peptide_HFLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLARN.pdbqt
+Processing peptide 39: HFLRRN
+PDB saved: ../results/pdb_files/peptide_HFLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLRRN.pdbqt
+Processing peptide 40: HFLNRN
+PDB saved: ../results/pdb_files/peptide_HFLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLNRN.pdbqt
+Processing peptide 41: HFLQRN
+PDB saved: ../results/pdb_files/peptide_HFLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLQRN.pdbqt
+Processing peptide 42: HFLGRN
+PDB saved: ../results/pdb_files/peptide_HFLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLGRN.pdbqt
+Processing peptide 43: HFLHRN
+PDB saved: ../results/pdb_files/peptide_HFLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLHRN.pdbqt
+Processing peptide 44: HFLKRN
+PDB saved: ../results/pdb_files/peptide_HFLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_HFLKRN.pdbqt
+Processing peptide 351: SFLRRA
+PDB saved: ../results/pdb_files/peptide_SFLRRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRA.pdbqt
+Processing peptide 352: SFLRRR
+PDB saved: ../results/pdb_files/peptide_SFLRRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRR.pdbqt
+Processing peptide 353: SFLRRN
+PDB saved: ../results/pdb_files/peptide_SFLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRN.pdbqt
+Processing peptide 354: SFLRRQ
+PDB saved: ../results/pdb_files/peptide_SFLRRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRQ.pdbqt
+Processing peptide 355: SFLRRG
+PDB saved: ../results/pdb_files/peptide_SFLRRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRG.pdbqt
+Processing peptide 356: SFLRRH
+PDB saved: ../results/pdb_files/peptide_SFLRRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRH.pdbqt
+Processing peptide 357: SFLRRK
+PDB saved: ../results/pdb_files/peptide_SFLRRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRK.pdbqt
+Processing peptide 358: SFLRRS
+PDB saved: ../results/pdb_files/peptide_SFLRRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRRS.pdbqt
+Processing peptide 359: SFLRNN
+PDB saved: ../results/pdb_files/peptide_SFLRNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRNN.pdbqt
+Processing peptide 0: AFALRN
+PDB saved: ../results/pdb_files/peptide_AFALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFALRN.pdbqt
+Processing peptide 1: AFRLRN
+PDB saved: ../results/pdb_files/peptide_AFRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFRLRN.pdbqt
+Processing peptide 2: AFNLRN
+PDB saved: ../results/pdb_files/peptide_AFNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFNLRN.pdbqt
+Processing peptide 3: AFQLRN
+PDB saved: ../results/pdb_files/peptide_AFQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFQLRN.pdbqt
+Processing peptide 4: AFGLRN
+PDB saved: ../results/pdb_files/peptide_AFGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFGLRN.pdbqt
+Processing peptide 5: AFHLRN
+PDB saved: ../results/pdb_files/peptide_AFHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFHLRN.pdbqt
+Processing peptide 6: AFLARN
+PDB saved: ../results/pdb_files/peptide_AFLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLARN.pdbqt
+Processing peptide 7: AFLRRN
+PDB saved: ../results/pdb_files/peptide_AFLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLRRN.pdbqt
+Processing peptide 8: AFLNRN
+PDB saved: ../results/pdb_files/peptide_AFLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLNRN.pdbqt
+Processing peptide 234: SFRLRR
+PDB saved: ../results/pdb_files/peptide_SFRLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRR.pdbqt
+Processing peptide 235: SFRLRN
+PDB saved: ../results/pdb_files/peptide_SFRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRN.pdbqt
+Processing peptide 236: SFRLRQ
+PDB saved: ../results/pdb_files/peptide_SFRLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRQ.pdbqt
+Processing peptide 237: SFRLRG
+PDB saved: ../results/pdb_files/peptide_SFRLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRG.pdbqt
+Processing peptide 238: SFRLRH
+PDB saved: ../results/pdb_files/peptide_SFRLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRH.pdbqt
+Processing peptide 239: SFRLRK
+PDB saved: ../results/pdb_files/peptide_SFRLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRK.pdbqt
+Processing peptide 240: SFRLRS
+PDB saved: ../results/pdb_files/peptide_SFRLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLRS.pdbqt
+Processing peptide 241: SFRLNN
+PDB saved: ../results/pdb_files/peptide_SFRLNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLNN.pdbqt
+Processing peptide 242: SFRLQN
+PDB saved: ../results/pdb_files/peptide_SFRLQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFRLQN.pdbqt
+Processing peptide 468: SFSLRR
+PDB saved: ../results/pdb_files/peptide_SFSLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRR.pdbqt
+Processing peptide 469: SFSLRN
+PDB saved: ../results/pdb_files/peptide_SFSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRN.pdbqt
+Processing peptide 470: SFSLRQ
+PDB saved: ../results/pdb_files/peptide_SFSLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRQ.pdbqt
+Processing peptide 471: SFSLRG
+PDB saved: ../results/pdb_files/peptide_SFSLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRG.pdbqt
+Processing peptide 472: SFSLRH
+PDB saved: ../results/pdb_files/peptide_SFSLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRH.pdbqt
+Processing peptide 473: SFSLRK
+PDB saved: ../results/pdb_files/peptide_SFSLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRK.pdbqt
+Processing peptide 474: SFSLRS
+PDB saved: ../results/pdb_files/peptide_SFSLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLRS.pdbqt
+Processing peptide 475: SFSLHN
+PDB saved: ../results/pdb_files/peptide_SFSLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLHN.pdbqt
+Processing peptide 476: SFSLKN
+PDB saved: ../results/pdb_files/peptide_SFSLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFSLKN.pdbqt
+Processing peptide 108: SEGLRN
+PDB saved: ../results/pdb_files/peptide_SEGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SEGLRN.pdbqt
+Processing peptide 109: SELARN
+PDB saved: ../results/pdb_files/peptide_SELARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SELARN.pdbqt
+Processing peptide 110: SELGRN
+PDB saved: ../results/pdb_files/peptide_SELGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SELGRN.pdbqt
+Processing peptide 111: SQALRN
+PDB saved: ../results/pdb_files/peptide_SQALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQALRN.pdbqt
+Processing peptide 112: SQGLRN
+PDB saved: ../results/pdb_files/peptide_SQGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQGLRN.pdbqt
+Processing peptide 113: SQILRN
+PDB saved: ../results/pdb_files/peptide_SQILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQILRN.pdbqt
+Processing peptide 114: SQLARN
+PDB saved: ../results/pdb_files/peptide_SQLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLARN.pdbqt
+Processing peptide 115: SQLGRN
+PDB saved: ../results/pdb_files/peptide_SQLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLGRN.pdbqt
+Processing peptide 116: SQLIRN
+PDB saved: ../results/pdb_files/peptide_SQLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SQLIRN.pdbqt
+Processing peptide 153: SGYLRN
+PDB saved: ../results/pdb_files/peptide_SGYLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGYLRN.pdbqt
+Processing peptide 154: SGVLRN
+PDB saved: ../results/pdb_files/peptide_SGVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SGVLRN.pdbqt
+Processing peptide 155: SHALRN
+PDB saved: ../results/pdb_files/peptide_SHALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHALRN.pdbqt
+Processing peptide 156: SHGLRN
+PDB saved: ../results/pdb_files/peptide_SHGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHGLRN.pdbqt
+Processing peptide 157: SHILRN
+PDB saved: ../results/pdb_files/peptide_SHILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHILRN.pdbqt
+Processing peptide 158: SHLARN
+PDB saved: ../results/pdb_files/peptide_SHLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLARN.pdbqt
+Processing peptide 159: SHLGRN
+PDB saved: ../results/pdb_files/peptide_SHLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLGRN.pdbqt
+Processing peptide 160: SHLIRN
+PDB saved: ../results/pdb_files/peptide_SHLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLIRN.pdbqt
+Processing peptide 161: SHLFRN
+PDB saved: ../results/pdb_files/peptide_SHLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SHLFRN.pdbqt
+Processing peptide 261: SFNLHN
+PDB saved: ../results/pdb_files/peptide_SFNLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLHN.pdbqt
+Processing peptide 262: SFNLKN
+PDB saved: ../results/pdb_files/peptide_SFNLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNLKN.pdbqt
+Processing peptide 263: SFNFRN
+PDB saved: ../results/pdb_files/peptide_SFNFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNFRN.pdbqt
+Processing peptide 264: SFNPRN
+PDB saved: ../results/pdb_files/peptide_SFNPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNPRN.pdbqt
+Processing peptide 265: SFNVRN
+PDB saved: ../results/pdb_files/peptide_SFNVRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFNVRN.pdbqt
+Processing peptide 266: SFDARN
+PDB saved: ../results/pdb_files/peptide_SFDARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFDARN.pdbqt
+Processing peptide 267: SFEARN
+PDB saved: ../results/pdb_files/peptide_SFEARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFEARN.pdbqt
+Processing peptide 268: SFEGRN
+PDB saved: ../results/pdb_files/peptide_SFEGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFEGRN.pdbqt
+Processing peptide 269: SFQARN
+PDB saved: ../results/pdb_files/peptide_SFQARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQARN.pdbqt
+Processing peptide 360: SFLRQN
+PDB saved: ../results/pdb_files/peptide_SFLRQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRQN.pdbqt
+Processing peptide 361: SFLRGN
+PDB saved: ../results/pdb_files/peptide_SFLRGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRGN.pdbqt
+Processing peptide 362: SFLRHN
+PDB saved: ../results/pdb_files/peptide_SFLRHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRHN.pdbqt
+Processing peptide 363: SFLRKN
+PDB saved: ../results/pdb_files/peptide_SFLRKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRKN.pdbqt
+Processing peptide 364: SFLRSN
+PDB saved: ../results/pdb_files/peptide_SFLRSN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLRSN.pdbqt
+Processing peptide 365: SFLNRA
+PDB saved: ../results/pdb_files/peptide_SFLNRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRA.pdbqt
+Processing peptide 366: SFLNRR
+PDB saved: ../results/pdb_files/peptide_SFLNRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRR.pdbqt
+Processing peptide 367: SFLNRN
+PDB saved: ../results/pdb_files/peptide_SFLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRN.pdbqt
+Processing peptide 368: SFLNRQ
+PDB saved: ../results/pdb_files/peptide_SFLNRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLNRQ.pdbqt
+Processing peptide 522: SVLARN
+PDB saved: ../results/pdb_files/peptide_SVLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLARN.pdbqt
+Processing peptide 523: SVLRRN
+PDB saved: ../results/pdb_files/peptide_SVLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLRRN.pdbqt
+Processing peptide 524: SVLNRN
+PDB saved: ../results/pdb_files/peptide_SVLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLNRN.pdbqt
+Processing peptide 525: SVLQRN
+PDB saved: ../results/pdb_files/peptide_SVLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLQRN.pdbqt
+Processing peptide 526: SVLGRN
+PDB saved: ../results/pdb_files/peptide_SVLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLGRN.pdbqt
+Processing peptide 527: SVLHRN
+PDB saved: ../results/pdb_files/peptide_SVLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLHRN.pdbqt
+Processing peptide 528: SVLKRN
+PDB saved: ../results/pdb_files/peptide_SVLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLKRN.pdbqt
+Processing peptide 529: SVLSRN
+PDB saved: ../results/pdb_files/peptide_SVLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVLSRN.pdbqt
+Processing peptide 530: SVKLRN
+PDB saved: ../results/pdb_files/peptide_SVKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SVKLRN.pdbqt
+Processing peptide 90: SRPLRN
+PDB saved: ../results/pdb_files/peptide_SRPLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRPLRN.pdbqt
+Processing peptide 91: SRVLRN
+PDB saved: ../results/pdb_files/peptide_SRVLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SRVLRN.pdbqt
+Processing peptide 92: SNALRN
+PDB saved: ../results/pdb_files/peptide_SNALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNALRN.pdbqt
+Processing peptide 93: SNGLRN
+PDB saved: ../results/pdb_files/peptide_SNGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNGLRN.pdbqt
+Processing peptide 94: SNILRN
+PDB saved: ../results/pdb_files/peptide_SNILRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNILRN.pdbqt
+Processing peptide 95: SNLARN
+PDB saved: ../results/pdb_files/peptide_SNLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLARN.pdbqt
+Processing peptide 96: SNLGRN
+PDB saved: ../results/pdb_files/peptide_SNLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLGRN.pdbqt
+Processing peptide 97: SNLIRN
+PDB saved: ../results/pdb_files/peptide_SNLIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLIRN.pdbqt
+Processing peptide 98: SNLFRN
+PDB saved: ../results/pdb_files/peptide_SNLFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SNLFRN.pdbqt
+Processing peptide 216: SFALRG
+PDB saved: ../results/pdb_files/peptide_SFALRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRG.pdbqt
+Processing peptide 217: SFALRH
+PDB saved: ../results/pdb_files/peptide_SFALRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRH.pdbqt
+Processing peptide 218: SFALRK
+PDB saved: ../results/pdb_files/peptide_SFALRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRK.pdbqt
+Processing peptide 219: SFALRS
+PDB saved: ../results/pdb_files/peptide_SFALRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALRS.pdbqt
+Processing peptide 220: SFALHN
+PDB saved: ../results/pdb_files/peptide_SFALHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALHN.pdbqt
+Processing peptide 221: SFALKN
+PDB saved: ../results/pdb_files/peptide_SFALKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFALKN.pdbqt
+Processing peptide 222: SFAKRN
+PDB saved: ../results/pdb_files/peptide_SFAKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAKRN.pdbqt
+Processing peptide 223: SFAFRN
+PDB saved: ../results/pdb_files/peptide_SFAFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAFRN.pdbqt
+Processing peptide 224: SFAPRN
+PDB saved: ../results/pdb_files/peptide_SFAPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFAPRN.pdbqt
+Processing peptide 414: SFLKRQ
+PDB saved: ../results/pdb_files/peptide_SFLKRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRQ.pdbqt
+Processing peptide 415: SFLKRG
+PDB saved: ../results/pdb_files/peptide_SFLKRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRG.pdbqt
+Processing peptide 416: SFLKRH
+PDB saved: ../results/pdb_files/peptide_SFLKRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRH.pdbqt
+Processing peptide 417: SFLKRK
+PDB saved: ../results/pdb_files/peptide_SFLKRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRK.pdbqt
+Processing peptide 418: SFLKRS
+PDB saved: ../results/pdb_files/peptide_SFLKRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKRS.pdbqt
+Processing peptide 419: SFLKNN
+PDB saved: ../results/pdb_files/peptide_SFLKNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKNN.pdbqt
+Processing peptide 420: SFLKQN
+PDB saved: ../results/pdb_files/peptide_SFLKQN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKQN.pdbqt
+Processing peptide 421: SFLKGN
+PDB saved: ../results/pdb_files/peptide_SFLKGN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKGN.pdbqt
+Processing peptide 422: SFLKHN
+PDB saved: ../results/pdb_files/peptide_SFLKHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLKHN.pdbqt
+Processing peptide 9: AFLQRN
+PDB saved: ../results/pdb_files/peptide_AFLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLQRN.pdbqt
+Processing peptide 10: AFLGRN
+PDB saved: ../results/pdb_files/peptide_AFLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLGRN.pdbqt
+Processing peptide 11: AFLHRN
+PDB saved: ../results/pdb_files/peptide_AFLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLHRN.pdbqt
+Processing peptide 12: AFLKRN
+PDB saved: ../results/pdb_files/peptide_AFLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLKRN.pdbqt
+Processing peptide 13: AFLSRN
+PDB saved: ../results/pdb_files/peptide_AFLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFLSRN.pdbqt
+Processing peptide 14: AFKLRN
+PDB saved: ../results/pdb_files/peptide_AFKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFKLRN.pdbqt
+Processing peptide 15: AFSLRN
+PDB saved: ../results/pdb_files/peptide_AFSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_AFSLRN.pdbqt
+Processing peptide 16: GFALRN
+PDB saved: ../results/pdb_files/peptide_GFALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFALRN.pdbqt
+Processing peptide 17: GFRLRN
+PDB saved: ../results/pdb_files/peptide_GFRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_GFRLRN.pdbqt
+Processing peptide 180: SILSRN
+PDB saved: ../results/pdb_files/peptide_SILSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILSRN.pdbqt
+Processing peptide 181: SIKLRN
+PDB saved: ../results/pdb_files/peptide_SIKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIKLRN.pdbqt
+Processing peptide 182: SISLRN
+PDB saved: ../results/pdb_files/peptide_SISLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SISLRN.pdbqt
+Processing peptide 183: SLALRN
+PDB saved: ../results/pdb_files/peptide_SLALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLALRN.pdbqt
+Processing peptide 184: SLRLRN
+PDB saved: ../results/pdb_files/peptide_SLRLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLRLRN.pdbqt
+Processing peptide 185: SLNLRN
+PDB saved: ../results/pdb_files/peptide_SLNLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLNLRN.pdbqt
+Processing peptide 186: SLQLRN
+PDB saved: ../results/pdb_files/peptide_SLQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLQLRN.pdbqt
+Processing peptide 187: SLGLRN
+PDB saved: ../results/pdb_files/peptide_SLGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLGLRN.pdbqt
+Processing peptide 188: SLHLRN
+PDB saved: ../results/pdb_files/peptide_SLHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SLHLRN.pdbqt
+Processing peptide 297: SFGLRQ
+PDB saved: ../results/pdb_files/peptide_SFGLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRQ.pdbqt
+Processing peptide 298: SFGLRG
+PDB saved: ../results/pdb_files/peptide_SFGLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRG.pdbqt
+Processing peptide 299: SFGLRH
+PDB saved: ../results/pdb_files/peptide_SFGLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRH.pdbqt
+Processing peptide 300: SFGLRK
+PDB saved: ../results/pdb_files/peptide_SFGLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRK.pdbqt
+Processing peptide 301: SFGLRS
+PDB saved: ../results/pdb_files/peptide_SFGLRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLRS.pdbqt
+Processing peptide 302: SFGLHN
+PDB saved: ../results/pdb_files/peptide_SFGLHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLHN.pdbqt
+Processing peptide 303: SFGLKN
+PDB saved: ../results/pdb_files/peptide_SFGLKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGLKN.pdbqt
+Processing peptide 304: SFGKRN
+PDB saved: ../results/pdb_files/peptide_SFGKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGKRN.pdbqt
+Processing peptide 305: SFGFRN
+PDB saved: ../results/pdb_files/peptide_SFGFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFGFRN.pdbqt
+Processing peptide 396: SFLHRA
+PDB saved: ../results/pdb_files/peptide_SFLHRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRA.pdbqt
+Processing peptide 397: SFLHRR
+PDB saved: ../results/pdb_files/peptide_SFLHRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRR.pdbqt
+Processing peptide 398: SFLHRN
+PDB saved: ../results/pdb_files/peptide_SFLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRN.pdbqt
+Processing peptide 399: SFLHRQ
+PDB saved: ../results/pdb_files/peptide_SFLHRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRQ.pdbqt
+Processing peptide 400: SFLHRG
+PDB saved: ../results/pdb_files/peptide_SFLHRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRG.pdbqt
+Processing peptide 401: SFLHRH
+PDB saved: ../results/pdb_files/peptide_SFLHRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRH.pdbqt
+Processing peptide 402: SFLHRK
+PDB saved: ../results/pdb_files/peptide_SFLHRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRK.pdbqt
+Processing peptide 403: SFLHRS
+PDB saved: ../results/pdb_files/peptide_SFLHRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHRS.pdbqt
+Processing peptide 404: SFLHNN
+PDB saved: ../results/pdb_files/peptide_SFLHNN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHNN.pdbqt
+Processing peptide 504: SPLKRN
+PDB saved: ../results/pdb_files/peptide_SPLKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLKRN.pdbqt
+Processing peptide 505: SPLSRN
+PDB saved: ../results/pdb_files/peptide_SPLSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLSRN.pdbqt
+Processing peptide 506: SPKLRN
+PDB saved: ../results/pdb_files/peptide_SPKLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPKLRN.pdbqt
+Processing peptide 507: SPSLRN
+PDB saved: ../results/pdb_files/peptide_SPSLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPSLRN.pdbqt
+Processing peptide 508: STALRN
+PDB saved: ../results/pdb_files/peptide_STALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_STALRN.pdbqt
+Processing peptide 509: STGLRN
+PDB saved: ../results/pdb_files/peptide_STGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_STGLRN.pdbqt
+Processing peptide 510: STLARN
+PDB saved: ../results/pdb_files/peptide_STLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_STLARN.pdbqt
+Processing peptide 511: STLGRN
+PDB saved: ../results/pdb_files/peptide_STLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_STLGRN.pdbqt
+Processing peptide 512: SYALRN
+PDB saved: ../results/pdb_files/peptide_SYALRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SYALRN.pdbqt
+Processing peptide 63: SALGRN
+PDB saved: ../results/pdb_files/peptide_SALGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALGRN.pdbqt
+Processing peptide 64: SALHRN
+PDB saved: ../results/pdb_files/peptide_SALHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALHRN.pdbqt
+Processing peptide 65: SALIRN
+PDB saved: ../results/pdb_files/peptide_SALIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALIRN.pdbqt
+Processing peptide 66: SALKRN
+PDB saved: ../results/pdb_files/peptide_SALKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALKRN.pdbqt
+Processing peptide 67: SALFRN
+PDB saved: ../results/pdb_files/peptide_SALFRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALFRN.pdbqt
+Processing peptide 68: SALPRN
+PDB saved: ../results/pdb_files/peptide_SALPRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALPRN.pdbqt
+Processing peptide 69: SALSRN
+PDB saved: ../results/pdb_files/peptide_SALSRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALSRN.pdbqt
+Processing peptide 70: SALTRN
+PDB saved: ../results/pdb_files/peptide_SALTRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALTRN.pdbqt
+Processing peptide 71: SALYRN
+PDB saved: ../results/pdb_files/peptide_SALYRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALYRN.pdbqt
+Processing peptide 171: SIGLRN
+PDB saved: ../results/pdb_files/peptide_SIGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIGLRN.pdbqt
+Processing peptide 172: SIHLRN
+PDB saved: ../results/pdb_files/peptide_SIHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SIHLRN.pdbqt
+Processing peptide 173: SILARN
+PDB saved: ../results/pdb_files/peptide_SILARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILARN.pdbqt
+Processing peptide 174: SILRRN
+PDB saved: ../results/pdb_files/peptide_SILRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILRRN.pdbqt
+Processing peptide 175: SILNRN
+PDB saved: ../results/pdb_files/peptide_SILNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILNRN.pdbqt
+Processing peptide 176: SILQRN
+PDB saved: ../results/pdb_files/peptide_SILQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILQRN.pdbqt
+Processing peptide 177: SILGRN
+PDB saved: ../results/pdb_files/peptide_SILGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILGRN.pdbqt
+Processing peptide 178: SILHRN
+PDB saved: ../results/pdb_files/peptide_SILHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILHRN.pdbqt
+Processing peptide 179: SILKRN
+PDB saved: ../results/pdb_files/peptide_SILKRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SILKRN.pdbqt
+Processing peptide 270: SFQGRN
+PDB saved: ../results/pdb_files/peptide_SFQGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQGRN.pdbqt
+Processing peptide 271: SFQIRN
+PDB saved: ../results/pdb_files/peptide_SFQIRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQIRN.pdbqt
+Processing peptide 272: SFQLRA
+PDB saved: ../results/pdb_files/peptide_SFQLRA.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRA.pdbqt
+Processing peptide 273: SFQLRR
+PDB saved: ../results/pdb_files/peptide_SFQLRR.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRR.pdbqt
+Processing peptide 274: SFQLRN
+PDB saved: ../results/pdb_files/peptide_SFQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRN.pdbqt
+Processing peptide 275: SFQLRQ
+PDB saved: ../results/pdb_files/peptide_SFQLRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRQ.pdbqt
+Processing peptide 276: SFQLRG
+PDB saved: ../results/pdb_files/peptide_SFQLRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRG.pdbqt
+Processing peptide 277: SFQLRH
+PDB saved: ../results/pdb_files/peptide_SFQLRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRH.pdbqt
+Processing peptide 278: SFQLRK
+PDB saved: ../results/pdb_files/peptide_SFQLRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFQLRK.pdbqt
+Processing peptide 387: SFLGRN
+PDB saved: ../results/pdb_files/peptide_SFLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRN.pdbqt
+Processing peptide 388: SFLGRQ
+PDB saved: ../results/pdb_files/peptide_SFLGRQ.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRQ.pdbqt
+Processing peptide 389: SFLGRG
+PDB saved: ../results/pdb_files/peptide_SFLGRG.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRG.pdbqt
+Processing peptide 390: SFLGRH
+PDB saved: ../results/pdb_files/peptide_SFLGRH.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRH.pdbqt
+Processing peptide 391: SFLGRK
+PDB saved: ../results/pdb_files/peptide_SFLGRK.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRK.pdbqt
+Processing peptide 392: SFLGRS
+PDB saved: ../results/pdb_files/peptide_SFLGRS.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGRS.pdbqt
+Processing peptide 393: SFLGHN
+PDB saved: ../results/pdb_files/peptide_SFLGHN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGHN.pdbqt
+Processing peptide 394: SFLGKN
+PDB saved: ../results/pdb_files/peptide_SFLGKN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLGKN.pdbqt
+Processing peptide 395: SFLHAN
+PDB saved: ../results/pdb_files/peptide_SFLHAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLHAN.pdbqt
+Processing peptide 495: SPQLRN
+PDB saved: ../results/pdb_files/peptide_SPQLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPQLRN.pdbqt
+Processing peptide 496: SPGLRN
+PDB saved: ../results/pdb_files/peptide_SPGLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPGLRN.pdbqt
+Processing peptide 497: SPHLRN
+PDB saved: ../results/pdb_files/peptide_SPHLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPHLRN.pdbqt
+Processing peptide 498: SPLARN
+PDB saved: ../results/pdb_files/peptide_SPLARN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLARN.pdbqt
+Processing peptide 499: SPLRRN
+PDB saved: ../results/pdb_files/peptide_SPLRRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLRRN.pdbqt
+Processing peptide 500: SPLNRN
+PDB saved: ../results/pdb_files/peptide_SPLNRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLNRN.pdbqt
+Processing peptide 501: SPLQRN
+PDB saved: ../results/pdb_files/peptide_SPLQRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLQRN.pdbqt
+Processing peptide 502: SPLGRN
+PDB saved: ../results/pdb_files/peptide_SPLGRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLGRN.pdbqt
+Processing peptide 503: SPLHRN
+PDB saved: ../results/pdb_files/peptide_SPLHRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SPLHRN.pdbqt
+Processing the other peptide SALLRN...
+Processing peptide 0: SALLRN
+PDB saved: ../results/pdb_files/peptide_SALLRN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SALLRN.pdbqt
+Processing the other peptide SFLLAN...
+Processing peptide 1: SFLLAN
+PDB saved: ../results/pdb_files/peptide_SFLLAN.pdb
+PDBQT saved: ../results/pdbqt_files/peptide_SFLLAN.pdbqt
+Processed 531 out of 532           peptides.
+Results saved in ../results/pdbqt_files/.

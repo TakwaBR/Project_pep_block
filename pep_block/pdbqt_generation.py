@@ -178,7 +178,7 @@ def neutralize_atoms(mol):
     return mol
 
 
-def save_as_pdbqt(mol_3d, output_dir, file_prefix, idx):
+def save_as_pdbqt(mol_3d, output_dir, file_prefix, peptide):
     """
     Save a 3D molecular structure in PDBQT format.
 
@@ -195,7 +195,7 @@ def save_as_pdbqt(mol_3d, output_dir, file_prefix, idx):
         preparator = MoleculePreparation()
         molecule_setups = preparator.prepare(mol_3d)
 
-        pdbqt_path = os.path.join(output_dir, f"{file_prefix}_{idx}.pdbqt")
+        pdbqt_path = os.path.join(output_dir, f"{file_prefix}_{peptide}.pdbqt")
 
         with open(pdbqt_path, 'w', encoding='utf-8') as pdbqt_file:
             writer = PDBQTWriterLegacy()
@@ -207,16 +207,50 @@ def save_as_pdbqt(mol_3d, output_dir, file_prefix, idx):
         print(f"PDBQT saved: {pdbqt_path}")
     except FileNotFoundError as fnf_error:
         print(f"File not found error while generating PDBQT for molecule\
-              {idx}: {fnf_error}")
+              {peptide}: {fnf_error}")
     except PermissionError as perm_error:
-        print(f"Permission error while generating PDBQT for molecule {idx}:\
-              {perm_error}")
+        print(f"Permission error while generating PDBQT for molecule\
+              {peptide}: {perm_error}")
     except AttributeError as attr_error:
-        print(f"Attribute error while generating PDBQT for molecule {idx}:\
-              {attr_error}")
+        print(f"Attribute error while generating PDBQT for molecule\
+              {peptide}: {attr_error}")
 
 
-def process_peptide(peptide, idx, prefix, output_dir, template):
+def save_as_pdb(mol_3d, pdb_output_dir, file_prefix, peptide):
+    """
+    Save a 3D molecular structure in PDB format.
+
+    Args:
+        mol_3d (rdkit.Chem.Mol): The 3D molecular structure.
+        pdb_output_dir (str): Directory to save the PDB file.
+        file_prefix (str): Prefix for the file name.
+        peptide (str): Peptide sequence for naming.
+
+    Returns:
+        None
+    """
+    pdb_path = os.path.join(pdb_output_dir, f"{file_prefix}_{peptide}.pdb")
+    writer = Chem.rdmolfiles.PDBWriter(pdb_path)
+    try:
+        writer.write(mol_3d)
+        print(f"PDB saved: {pdb_path}")
+    except FileNotFoundError:
+        print(f"File not found: Unable to save PDB for peptide {peptide}.\
+              Check the directory path.")
+    except PermissionError:
+        print(f"Permission denied: Unable to save PDB for peptide {peptide}.\
+              Verify your access rights.")
+    except AttributeError as attr_error:
+        print(f"Attribute error while saving PDB for peptide\
+              {peptide}: {attr_error}")
+    except Chem.rdchem.MolSanitizeException as mol_error:
+        print(f"Sanitization error for peptide {peptide}: {mol_error}")
+    finally:
+        writer.close()
+
+
+def process_peptide(peptide, idx, prefix, output_dir, pdb_output_dir,
+                    template):
     """
     Process a peptide to generate 3D structures and save it in pdbqt files.
 
@@ -233,12 +267,12 @@ def process_peptide(peptide, idx, prefix, output_dir, template):
     print(f"Processing peptide {idx}: {peptide}")
     mol_2d = generate_2d_structure(peptide)
     if not mol_2d:
-        print(f"Failed to generate 2D structure for peptide {idx}")
+        print(f"Failed to generate 2D structure for peptide {idx}: {peptide}")
         return None
 
     mol_3d = generate_3d_structure_from_2d(mol_2d)
     if not mol_3d:
-        print(f"Failed to generate 3D structure for peptide {idx}")
+        print(f"Failed to generate 3D structure for peptide {idx}: {peptide}")
         return None
 
     if template:
@@ -262,8 +296,8 @@ def process_peptide(peptide, idx, prefix, output_dir, template):
             print(f"RDKit error while aligning to template for peptide\
                   {idx}: {rdkit_error}")
             return None
-
-    save_as_pdbqt(mol_3d, output_dir, prefix, idx)
+    save_as_pdb(mol_3d, pdb_output_dir, prefix, peptide)
+    save_as_pdbqt(mol_3d, output_dir, prefix, peptide)
     return mol_3d
 
 
@@ -278,6 +312,8 @@ def main():
                         help="Column name containing peptide sequences.")
     parser.add_argument('-o', '--output', type=str, required=True,
                         help="Directory to save output structures.")
+    parser.add_argument('-op', '--pdb_output', type=str, required=True,
+                        help="Directory to save PDB files separately.")
     parser.add_argument('--prefix', type=str, default="peptide",
                         help="Prefix for saved structure files.")
     parser.add_argument('-t', '--template', type=str,
@@ -289,6 +325,8 @@ def main():
     parser.add_argument('--n_images', type=int, default=4,
                         help="Number of 2D images to include in the\
                             combined image.")
+    parser.add_argument('-other', '--other', type=str, nargs="+",
+                        help="Other peptides to be processed.")
 
     args = parser.parse_args()
 
@@ -297,29 +335,43 @@ def main():
 
     if not os.path.exists(args.output):
         os.makedirs(args.output)
+    if not os.path.exists(args.pdb_output):
+        os.makedirs(args.pdb_output)
 
     if args.template:
         chain = extract_chain_by_sequence(args.template, args.sequence)
         if chain:
-            template_path = os.path.join(args.output,
+            template_path = os.path.join(args.pdb_output,
                                          f"template_{args.sequence}.pdb")
             save_extracted_chain(chain, template_path)
         else:
             print(f"Template chain matching sequence\
                   {args.sequence} not found in {args.template}.")
             return
+    print(f"Loading template from: {args.template}")
     template = Chem.MolFromPDBFile(template_path)
+    if not template:
+        print(f"Error: Unable to load the template from '{args.template}'.")
+        return
+
     template = neutralize_atoms(template)
 
     if args.images:
         generate_2d_images(peptide_sequences, args.images, args.n_images)
 
     print("Processing peptides...")
-    tasks = [(peptide, idx, args.prefix, args.output, template)
+    tasks = [(peptide, idx, args.prefix, args.output, args.pdb_output,
+              template)
              for idx, peptide in enumerate(peptide_sequences)]
 
     with Pool(cpu_count()) as pool:
         results = pool.starmap(process_peptide, tasks)
+
+    if args.other:
+        for idx, arg in enumerate(args.other):
+            print(f"Processing the other peptide {arg}...")
+            process_peptide(arg, idx, args.prefix, args.output,
+                            args.pdb_output, template)
 
     valid_results = [res for res in results if res]
     print(f"Processed {len(valid_results)} out of {len(peptide_sequences)}\
